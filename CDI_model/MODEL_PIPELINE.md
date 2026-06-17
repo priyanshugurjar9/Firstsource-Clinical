@@ -344,10 +344,3 @@ It goes beyond a basic summariser by adding:
 
 ---
 
-## Safety Note
-
-This prototype is for proof-of-concept use only.
-
-It does not provide autonomous diagnosis, treatment advice, or clinically validated outcome prediction.
-
-Before any production use, the system would need validation on approved de-identified clinical datasets, clinical review, privacy assessment, bias testing, and governance approval.
