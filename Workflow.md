@@ -8,9 +8,9 @@ flowchart TD
 
     D --> E["Structured Clinical Entities<br/>Diagnosis, symptoms, medications, allergies,<br/>lab results, follow-up, red flags"]
 
-    E --> F["LLM Structured Reasoning Layer<br/>JSON generation, summary, missing-field detection"]
+    E --> F["LLM Structured Reasoning Layer<br/>Summary, JSON formatting, missing-field detection"]
 
-    F --> G["Causal Explainability Layer<br/>Finding -> meaning -> risk implication -> next action"]
+    F --> G["Deterministic Causal Explainability Layer<br/>Finding -> meaning -> risk implication -> next action"]
 
     G --> H["Risk & Triage Engine<br/>Low / Medium / High risk classification"]
 
