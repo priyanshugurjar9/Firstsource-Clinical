@@ -7,5 +7,5 @@ The dataset does **not** contain any real patient data, protected health informa
 The dataset is split into two CSV files:
 
 ```text
-data/clinical_poc_synthetic_dataset.csv
-data/clinical_poc_entity_annotations.csv
+Dataset/clinical_poc_synthetic_dataset.csv
+Dataset/clinical_poc_entity_annotations.csv
