@@ -1,0 +1,73 @@
+{
+  "base_model": "emilyalsentzer/Bio_ClinicalBERT",
+  "device": "cpu",
+  "configuration": {
+    "epochs": 6,
+    "batch_size": 8,
+    "classifier_learning_rate": 0.0005,
+    "encoder_learning_rate": 2e-05,
+    "unfreeze_layers": 2,
+    "max_length": 192,
+    "outside_weight": 0.8
+  },
+  "confidence_threshold": 0.3,
+  "validation_history": [
+    {
+      "epoch": 1,
+      "loss": 2.246639311313629,
+      "confidence_threshold": 0.0,
+      "precision": 0.03170028818443804,
+      "recall": 0.04583333333333333,
+      "f1": 0.037478705281090284
+    },
+    {
+      "epoch": 2,
+      "loss": 1.5808843970298767,
+      "confidence_threshold": 0.0,
+      "precision": 0.3350253807106599,
+      "recall": 0.55,
+      "f1": 0.416403785488959
+    },
+    {
+      "epoch": 3,
+      "loss": 0.9711167067289352,
+      "confidence_threshold": 0.0,
+      "precision": 0.4973544973544973,
+      "recall": 0.7833333333333333,
+      "f1": 0.6084142394822006
+    },
+    {
+      "epoch": 4,
+      "loss": 0.5296367729703585,
+      "confidence_threshold": 0.0,
+      "precision": 0.5976331360946746,
+      "recall": 0.8416666666666667,
+      "f1": 0.698961937716263
+    },
+    {
+      "epoch": 5,
+      "loss": 0.28689659386873245,
+      "confidence_threshold": 0.3,
+      "precision": 0.7105263157894737,
+      "recall": 0.9,
+      "f1": 0.7941176470588235
+    },
+    {
+      "epoch": 6,
+      "loss": 0.1690652333199978,
+      "confidence_threshold": 0.3,
+      "precision": 0.8540145985401459,
+      "recall": 0.975,
+      "f1": 0.9105058365758756
+    }
+  ],
+  "test_metrics": {
+    "precision": 0.8268551236749117,
+    "recall": 0.975,
+    "f1": 0.8948374760994263
+  },
+  "limitations": [
+    "Synthetic templated data may produce optimistic metrics.",
+    "Results are POC validation metrics, not clinical performance claims."
+  ]
+}

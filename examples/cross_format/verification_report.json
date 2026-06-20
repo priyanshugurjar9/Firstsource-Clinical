@@ -1,0 +1,297 @@
+{
+  "model": "Fine-tuned BioClinicalBERT + validation layer",
+  "formats": {
+    "png": {
+      "extracted_characters": 541,
+      "patient": {
+        "name": "Amelia Hart",
+        "age": 67,
+        "gender": "Female",
+        "date_of_birth": "Not identified",
+        "patient_id": "Not identified"
+      },
+      "priority": "Medium",
+      "model_entities": [
+        {
+          "label": "DIAGNOSIS",
+          "text": "Type 2 diabetes mellitus",
+          "confidence": 0.956
+        },
+        {
+          "label": "DIAGNOSIS",
+          "text": "hypertension",
+          "confidence": 0.864
+        },
+        {
+          "label": "SYMPTOM",
+          "text": "Fatigue",
+          "confidence": 0.633
+        },
+        {
+          "label": "SYMPTOM",
+          "text": "blurred vision",
+          "confidence": 0.763
+        },
+        {
+          "label": "SYMPTOM",
+          "text": "dizziness",
+          "confidence": 0.923
+        }
+      ],
+      "checks": {
+        "patient_name": true,
+        "age": true,
+        "gender": true,
+        "document_date": true,
+        "model_entities_present": true,
+        "type_2_diabetes": true,
+        "hypertension": true,
+        "fatigue": true,
+        "blurred_vision": true,
+        "dizziness": true,
+        "negated_chest_pain_excluded": true,
+        "metformin": true,
+        "amlodipine": true,
+        "penicillin_allergy": true,
+        "hba1c": true,
+        "blood_pressure": true,
+        "follow_up_text": true,
+        "priority": true
+      }
+    },
+    "pdf": {
+      "extracted_characters": 529,
+      "patient": {
+        "name": "Amelia Hart",
+        "age": 67,
+        "gender": "Female",
+        "date_of_birth": "Not identified",
+        "patient_id": "Not identified"
+      },
+      "priority": "Medium",
+      "model_entities": [
+        {
+          "label": "DIAGNOSIS",
+          "text": "Type 2 diabetes mellitus",
+          "confidence": 0.956
+        },
+        {
+          "label": "DIAGNOSIS",
+          "text": "hypertension",
+          "confidence": 0.864
+        },
+        {
+          "label": "SYMPTOM",
+          "text": "Fatigue",
+          "confidence": 0.633
+        },
+        {
+          "label": "SYMPTOM",
+          "text": "blurred vision",
+          "confidence": 0.763
+        },
+        {
+          "label": "SYMPTOM",
+          "text": "dizziness",
+          "confidence": 0.923
+        }
+      ],
+      "checks": {
+        "patient_name": true,
+        "age": true,
+        "gender": true,
+        "document_date": true,
+        "model_entities_present": true,
+        "type_2_diabetes": true,
+        "hypertension": true,
+        "fatigue": true,
+        "blurred_vision": true,
+        "dizziness": true,
+        "negated_chest_pain_excluded": true,
+        "metformin": true,
+        "amlodipine": true,
+        "penicillin_allergy": true,
+        "hba1c": true,
+        "blood_pressure": true,
+        "follow_up_text": true,
+        "priority": true
+      }
+    },
+    "docx": {
+      "extracted_characters": 474,
+      "patient": {
+        "name": "Amelia Hart",
+        "age": 67,
+        "gender": "Female",
+        "date_of_birth": "Not identified",
+        "patient_id": "Not identified"
+      },
+      "priority": "Medium",
+      "model_entities": [
+        {
+          "label": "DIAGNOSIS",
+          "text": "Type 2 diabetes mellitus",
+          "confidence": 0.949
+        },
+        {
+          "label": "DIAGNOSIS",
+          "text": "hypertension",
+          "confidence": 0.843
+        },
+        {
+          "label": "SYMPTOM",
+          "text": "Fatigue",
+          "confidence": 0.593
+        },
+        {
+          "label": "SYMPTOM",
+          "text": "blurred vision",
+          "confidence": 0.739
+        },
+        {
+          "label": "SYMPTOM",
+          "text": "dizziness",
+          "confidence": 0.926
+        }
+      ],
+      "checks": {
+        "patient_name": true,
+        "age": true,
+        "gender": true,
+        "document_date": true,
+        "model_entities_present": true,
+        "type_2_diabetes": true,
+        "hypertension": true,
+        "fatigue": true,
+        "blurred_vision": true,
+        "dizziness": true,
+        "negated_chest_pain_excluded": true,
+        "metformin": true,
+        "amlodipine": true,
+        "penicillin_allergy": true,
+        "hba1c": true,
+        "blood_pressure": true,
+        "follow_up_text": true,
+        "priority": true
+      }
+    },
+    "md": {
+      "extracted_characters": 475,
+      "patient": {
+        "name": "Amelia Hart",
+        "age": 67,
+        "gender": "Female",
+        "date_of_birth": "Not identified",
+        "patient_id": "Not identified"
+      },
+      "priority": "Medium",
+      "model_entities": [
+        {
+          "label": "DIAGNOSIS",
+          "text": "Type 2 diabetes mellitus",
+          "confidence": 0.949
+        },
+        {
+          "label": "DIAGNOSIS",
+          "text": "hypertension",
+          "confidence": 0.843
+        },
+        {
+          "label": "SYMPTOM",
+          "text": "Fatigue",
+          "confidence": 0.593
+        },
+        {
+          "label": "SYMPTOM",
+          "text": "blurred vision",
+          "confidence": 0.739
+        },
+        {
+          "label": "SYMPTOM",
+          "text": "dizziness",
+          "confidence": 0.926
+        }
+      ],
+      "checks": {
+        "patient_name": true,
+        "age": true,
+        "gender": true,
+        "document_date": true,
+        "model_entities_present": true,
+        "type_2_diabetes": true,
+        "hypertension": true,
+        "fatigue": true,
+        "blurred_vision": true,
+        "dizziness": true,
+        "negated_chest_pain_excluded": true,
+        "metformin": true,
+        "amlodipine": true,
+        "penicillin_allergy": true,
+        "hba1c": true,
+        "blood_pressure": true,
+        "follow_up_text": true,
+        "priority": true
+      }
+    },
+    "txt": {
+      "extracted_characters": 480,
+      "patient": {
+        "name": "Amelia Hart",
+        "age": 67,
+        "gender": "Female",
+        "date_of_birth": "Not identified",
+        "patient_id": "Not identified"
+      },
+      "priority": "Medium",
+      "model_entities": [
+        {
+          "label": "DIAGNOSIS",
+          "text": "Type 2 diabetes mellitus",
+          "confidence": 0.949
+        },
+        {
+          "label": "DIAGNOSIS",
+          "text": "hypertension",
+          "confidence": 0.843
+        },
+        {
+          "label": "SYMPTOM",
+          "text": "Fatigue",
+          "confidence": 0.593
+        },
+        {
+          "label": "SYMPTOM",
+          "text": "blurred vision",
+          "confidence": 0.739
+        },
+        {
+          "label": "SYMPTOM",
+          "text": "dizziness",
+          "confidence": 0.926
+        }
+      ],
+      "checks": {
+        "patient_name": true,
+        "age": true,
+        "gender": true,
+        "document_date": true,
+        "model_entities_present": true,
+        "type_2_diabetes": true,
+        "hypertension": true,
+        "fatigue": true,
+        "blurred_vision": true,
+        "dizziness": true,
+        "negated_chest_pain_excluded": true,
+        "metformin": true,
+        "amlodipine": true,
+        "penicillin_allergy": true,
+        "hba1c": true,
+        "blood_pressure": true,
+        "follow_up_text": true,
+        "priority": true
+      }
+    }
+  },
+  "passed": true,
+  "failures": []
+}

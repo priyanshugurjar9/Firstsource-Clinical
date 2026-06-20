@@ -1,0 +1,32 @@
+{
+  "patient": {
+    "name": "Amelia Hart",
+    "age": 67,
+    "gender": "Female"
+  },
+  "document_date": "2026-06-18",
+  "diagnoses": [
+    "Type 2 diabetes mellitus",
+    "hypertension"
+  ],
+  "positive_symptoms": [
+    "fatigue",
+    "blurred vision",
+    "dizziness"
+  ],
+  "negated_symptoms": [
+    "chest pain"
+  ],
+  "medications": [
+    "Metformin 1000 mg twice daily",
+    "Amlodipine 10 mg OD"
+  ],
+  "allergies": [
+    "Penicillin allergy"
+  ],
+  "results": [
+    "HbA1c 9.4%",
+    "Blood pressure 168/96 mmHg"
+  ],
+  "expected_priority": "Medium"
+}

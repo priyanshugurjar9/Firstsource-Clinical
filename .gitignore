@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.streamlit/secrets.toml
+.venv/
+venv/
+/models/bioclinicalbert-ner/model.safetensors
+/logs/
+/tmp/
+/outputs/
+/.cache/

@@ -1,0 +1,2864 @@
+{
+  "case_id": "CASE-FCFD8253",
+  "consolidated": {
+    "document_type": "Combined record (3 documents)",
+    "patient_details": {
+      "name": "Margaret Elaine Forsythe",
+      "age": 66,
+      "gender": "Female"
+    },
+    "summary": "Margaret Elaine Forsythe's consolidated record combines 3 documents: Discharge Summary, Lab Report, GP Consultation Note. Conditions documented across the record include type 2 diabetes mellitus, hypertension, ischaemic heart disease. The highest workflow priority is high, driven by acute myocardial injury pattern. Each action remains subject to human confirmation.",
+    "entities": [
+      {
+        "text": "ankle oedema",
+        "label": "SYMPTOM",
+        "confidence": 0.86,
+        "start": 405,
+        "end": 432,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "type 2 diabetes mellitus",
+        "label": "DIAGNOSIS",
+        "confidence": 0.86,
+        "start": 450,
+        "end": 474,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "hypertension",
+        "label": "DIAGNOSIS",
+        "confidence": 0.86,
+        "start": 476,
+        "end": 488,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "ischaemic heart disease",
+        "label": "DIAGNOSIS",
+        "confidence": 0.86,
+        "start": 500,
+        "end": 523,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "Haemoglobin: 10.9 g/dL",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 605,
+        "end": 627,
+        "source": "clinical-pattern",
+        "document_id": "lab_report_unstructured.txt"
+      },
+      {
+        "text": "central chest pain",
+        "label": "SYMPTOM",
+        "confidence": 0.86,
+        "start": 615,
+        "end": 633,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "chest pain",
+        "label": "RED_FLAG",
+        "confidence": 0.88,
+        "start": 623,
+        "end": 633,
+        "source": "clinical-lexicon",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "diaphoresis",
+        "label": "SYMPTOM",
+        "confidence": 0.9,
+        "start": 677,
+        "end": 688,
+        "source": "clinical-lexicon",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "Sacubitril-Valsartan (Entresto) 24/26 mg BD",
+        "label": "MEDICATION",
+        "confidence": 0.86,
+        "start": 693,
+        "end": 735,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "shortness of breath",
+        "label": "SYMPTOM",
+        "confidence": 0.86,
+        "start": 693,
+        "end": 712,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "dizziness",
+        "label": "SYMPTOM",
+        "confidence": 0.86,
+        "start": 787,
+        "end": 796,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "risk of angioedema",
+        "label": "RED_FLAG",
+        "confidence": 0.86,
+        "start": 1045,
+        "end": 1063,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "Bisoprolol 5 mg OD",
+        "label": "MEDICATION",
+        "confidence": 0.86,
+        "start": 1106,
+        "end": 1125,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "Furosemide 40 mg OD",
+        "label": "MEDICATION",
+        "confidence": 0.86,
+        "start": 1218,
+        "end": 1236,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "eGFR 68",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 1381,
+        "end": 1389,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "Creatinine: 118 umol/L",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 1387,
+        "end": 1409,
+        "source": "clinical-pattern",
+        "document_id": "lab_report_unstructured.txt"
+      },
+      {
+        "text": "eGFR (CKD-EPI): 52 mL/min/1.73m2",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 1443,
+        "end": 1475,
+        "source": "clinical-pattern",
+        "document_id": "lab_report_unstructured.txt"
+      },
+      {
+        "text": "Atorvastatin 80 mg",
+        "label": "MEDICATION",
+        "confidence": 0.86,
+        "start": 1525,
+        "end": 1548,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "Metformin 500 mg BD",
+        "label": "MEDICATION",
+        "confidence": 0.86,
+        "start": 1531,
+        "end": 1549,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "Insulin Glargine (Lantus) 24 units at night",
+        "label": "MEDICATION",
+        "confidence": 0.86,
+        "start": 1634,
+        "end": 1677,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "Troponin I (hsTnI) @ 02:55: 142 ng/L",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 1651,
+        "end": 1687,
+        "source": "clinical-pattern",
+        "document_id": "lab_report_unstructured.txt"
+      },
+      {
+        "text": "Ramipril 10 mg OD",
+        "label": "MEDICATION",
+        "confidence": 0.86,
+        "start": 1679,
+        "end": 1695,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "Amlodipine 10 mg OD",
+        "label": "MEDICATION",
+        "confidence": 0.86,
+        "start": 1697,
+        "end": 1715,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "Troponin I (hsTnI) @ 05:55: 389 ng/L",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 1727,
+        "end": 1763,
+        "source": "clinical-pattern",
+        "document_id": "lab_report_unstructured.txt"
+      },
+      {
+        "text": "ferrous sulphate 200 mg BD",
+        "label": "MEDICATION",
+        "confidence": 0.86,
+        "start": 1738,
+        "end": 1763,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "Aspirin 75 mg",
+        "label": "MEDICATION",
+        "confidence": 0.86,
+        "start": 1742,
+        "end": 1757,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "Clopidogrel 75 mg",
+        "label": "MEDICATION",
+        "confidence": 0.86,
+        "start": 1759,
+        "end": 1778,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "Rising troponin pattern",
+        "label": "RED_FLAG",
+        "confidence": 0.86,
+        "start": 1820,
+        "end": 1843,
+        "source": "clinical-pattern",
+        "document_id": "lab_report_unstructured.txt"
+      },
+      {
+        "text": "Omeprazole 20 mg OD",
+        "label": "MEDICATION",
+        "confidence": 0.86,
+        "start": 1869,
+        "end": 1887,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "NSTEMI criteria met",
+        "label": "RED_FLAG",
+        "confidence": 0.86,
+        "start": 1918,
+        "end": 1937,
+        "source": "clinical-pattern",
+        "document_id": "lab_report_unstructured.txt"
+      },
+      {
+        "text": "BNP (B-type Natriuretic Peptide): 810 pg/mL",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 1940,
+        "end": 1983,
+        "source": "clinical-pattern",
+        "document_id": "lab_report_unstructured.txt"
+      },
+      {
+        "text": "PENICILLIN \u2014 anaphylaxis",
+        "label": "ALLERGY",
+        "confidence": 0.86,
+        "start": 1943,
+        "end": 1967,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "Codeine \u2014 causes severe nausea",
+        "label": "ADVERSE_REACTION",
+        "confidence": 0.86,
+        "start": 1982,
+        "end": 2012,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "MARKEDLY ELEVATED",
+        "label": "RED_FLAG",
+        "confidence": 0.86,
+        "start": 2006,
+        "end": 2023,
+        "source": "clinical-pattern",
+        "document_id": "lab_report_unstructured.txt"
+      },
+      {
+        "text": "nausea",
+        "label": "SYMPTOM",
+        "confidence": 0.9,
+        "start": 2006,
+        "end": 2012,
+        "source": "clinical-lexicon",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "BP: 118/72",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 2205,
+        "end": 2215,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "BNP: 810 pg/mL",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 2400,
+        "end": 2414,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "O2 sats: 96%",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 2413,
+        "end": 2425,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "bibasal crackles",
+        "label": "SYMPTOM",
+        "confidence": 0.86,
+        "start": 2445,
+        "end": 2461,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "Creatinine 118 umol/L",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 2553,
+        "end": 2574,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "HbA1c: 9.2%",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 2562,
+        "end": 2573,
+        "source": "clinical-pattern",
+        "document_id": "lab_report_unstructured.txt"
+      },
+      {
+        "text": "eGFR 52",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 2576,
+        "end": 2584,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "Fall risk",
+        "label": "RED_FLAG",
+        "confidence": 0.86,
+        "start": 2624,
+        "end": 2633,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "POOR GLYCAEMIC CONTROL",
+        "label": "RED_FLAG",
+        "confidence": 0.86,
+        "start": 2632,
+        "end": 2654,
+        "source": "clinical-pattern",
+        "document_id": "lab_report_unstructured.txt"
+      },
+      {
+        "text": "Random Glucose: 13.4 mmol/L",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 2658,
+        "end": 2685,
+        "source": "clinical-pattern",
+        "document_id": "lab_report_unstructured.txt"
+      },
+      {
+        "text": "Ferritin: 11 ug/L",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 2750,
+        "end": 2767,
+        "source": "clinical-pattern",
+        "document_id": "lab_report_unstructured.txt"
+      },
+      {
+        "text": "NSTEMI",
+        "label": "DIAGNOSIS",
+        "confidence": 0.86,
+        "start": 3029,
+        "end": 3035,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "iron deficiency anaemia",
+        "label": "DIAGNOSIS",
+        "confidence": 0.86,
+        "start": 3065,
+        "end": 3088,
+        "source": "clinical-pattern",
+        "document_id": "lab_report_unstructured.txt"
+      },
+      {
+        "text": "enoxaparin 1 mg/kg BD",
+        "label": "MEDICATION",
+        "confidence": 0.86,
+        "start": 3132,
+        "end": 3152,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "Iodinated contrast allergy - mild rash",
+        "label": "ALLERGY",
+        "confidence": 0.86,
+        "start": 3430,
+        "end": 3465,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "allergy record \u2014 this is currently filed as 'severe allergy' in SystmOne \n which is WRONG",
+        "label": "RED_FLAG",
+        "confidence": 0.86,
+        "start": 3527,
+        "end": 3616,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "fluid overload",
+        "label": "RED_FLAG",
+        "confidence": 0.88,
+        "start": 3564,
+        "end": 3578,
+        "source": "clinical-lexicon",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "TSH: 2.4 mU/L",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 3612,
+        "end": 3625,
+        "source": "clinical-pattern",
+        "document_id": "lab_report_unstructured.txt"
+      },
+      {
+        "text": "ferritin 11",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 3638,
+        "end": 3649,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "post-MI",
+        "label": "DIAGNOSIS",
+        "confidence": 0.86,
+        "start": 3964,
+        "end": 3971,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "heart failure",
+        "label": "DIAGNOSIS",
+        "confidence": 0.86,
+        "start": 4050,
+        "end": 4063,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "HbA1c 9.2%",
+        "label": "LAB_RESULT",
+        "confidence": 0.86,
+        "start": 4129,
+        "end": 4139,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "CKD Stage 3a",
+        "label": "DIAGNOSIS",
+        "confidence": 0.86,
+        "start": 4173,
+        "end": 4185,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "Heart failure nurse contact within 48 hours of discharge",
+        "label": "FOLLOW_UP",
+        "confidence": 0.86,
+        "start": 4454,
+        "end": 4530,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "no-one has called yet",
+        "label": "RED_FLAG",
+        "confidence": 0.86,
+        "start": 4547,
+        "end": 4568,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "Diabetes nurse review in 4-6 weeks",
+        "label": "FOLLOW_UP",
+        "confidence": 0.86,
+        "start": 4854,
+        "end": 4900,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "Correct the allergy record before end of week",
+        "label": "FOLLOW_UP",
+        "confidence": 0.86,
+        "start": 4931,
+        "end": 5010,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      },
+      {
+        "text": "GP to check U&E and eGFR in 2 weeks",
+        "label": "FOLLOW_UP",
+        "confidence": 0.86,
+        "start": 4997,
+        "end": 5032,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "Recheck HbA1c in 3 months",
+        "label": "FOLLOW_UP",
+        "confidence": 0.86,
+        "start": 5100,
+        "end": 5133,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "Cardiology outpatient review in 6 weeks",
+        "label": "FOLLOW_UP",
+        "confidence": 0.86,
+        "start": 5135,
+        "end": 5160,
+        "source": "clinical-pattern",
+        "document_id": "discharge_summary_unstructured.pdf"
+      },
+      {
+        "text": "Next GP appointment in 2 weeks",
+        "label": "FOLLOW_UP",
+        "confidence": 0.86,
+        "start": 5222,
+        "end": 5247,
+        "source": "clinical-pattern",
+        "document_id": "gp_clinical_note.md"
+      }
+    ],
+    "missing_information": [
+      "contrast reaction details",
+      "medication adherence history",
+      "smoking cessation date",
+      "formal cognitive assessment",
+      "pending vitamin B12 and folate"
+    ],
+    "red_flags": [
+      "chest pain",
+      "fluid overload",
+      "Rising troponin pattern",
+      "NSTEMI criteria met",
+      "MARKEDLY ELEVATED",
+      "POOR GLYCAEMIC CONTROL",
+      "risk of angioedema",
+      "Fall risk",
+      "allergy record \u2014 this is currently filed as 'severe allergy' in SystmOne \n which is WRONG",
+      "no-one has called yet"
+    ],
+    "risk_score": 61,
+    "risk_level": "High",
+    "recommended_action": "Escalate to the acute cardiac pathway Also: Escalate for same-day medication safety review and confirm ramipril is stopped Also: Arrange early heart failure follow-up Also: Route to the diabetes nurse specialist within 7 days Also: Verify the original contrast reaction and correct the allergy record.",
+    "causal_links": [
+      {
+        "finding": "Troponin I (hsTnI) @ 02:55: 142 ng/L + SIGNIFICANT RISE",
+        "meaning": "Acute myocardial injury pattern",
+        "implication": "A rising troponin pattern with documented acute myocardial injury requires urgent cardiac review",
+        "action": "Escalate to the acute cardiac pathway",
+        "weight": 45,
+        "evidence_type": "Expert rule association",
+        "evidence_basis": "Troponin trend and myocardial-injury safety rule",
+        "source_documents": [
+          "lab_report_unstructured.txt"
+        ],
+        "routing_destination": "Acute cardiac team",
+        "follow_up_window": "Immediate / same day",
+        "display_interpretation": null,
+        "display_concern": null,
+        "display_intervention": null
+      },
+      {
+        "finding": "chest pain + ST depression",
+        "meaning": "Possible acute cardiac concern",
+        "implication": "Urgent review is required because symptoms and electrocardiogram findings occur together",
+        "action": "Escalate to the acute cardiac pathway",
+        "weight": 40,
+        "evidence_type": "Expert rule association",
+        "evidence_basis": "Chest pain plus electrocardiogram change safety rule",
+        "source_documents": [
+          "discharge_summary_unstructured.pdf"
+        ],
+        "routing_destination": "Acute cardiac team",
+        "follow_up_window": "Immediate / same day",
+        "display_interpretation": null,
+        "display_concern": null,
+        "display_intervention": null
+      },
+      {
+        "finding": "ramipril + Entresto + risk of angioedema",
+        "meaning": "Potential ACE inhibitor and Entresto interaction",
+        "implication": "Taking ramipril close to Entresto can create a serious medication-safety concern",
+        "action": "Escalate for same-day medication safety review and confirm ramipril is stopped",
+        "weight": 40,
+        "evidence_type": "Expert rule association",
+        "evidence_basis": "ACE inhibitor and neprilysin-inhibitor medication safety rule",
+        "source_documents": [
+          "gp_clinical_note.md"
+        ],
+        "routing_destination": "Prescribing clinician / heart failure team",
+        "follow_up_window": "Immediate / same day",
+        "display_interpretation": null,
+        "display_concern": null,
+        "display_intervention": null
+      },
+      {
+        "finding": "BNP: 810 + fluid overload",
+        "meaning": "Potentially unstable heart failure",
+        "implication": "Higher risk of deterioration or readmission",
+        "action": "Arrange early heart failure follow-up",
+        "weight": 35,
+        "evidence_type": "Expert rule association",
+        "evidence_basis": "Heart-failure deterioration follow-up rule",
+        "source_documents": [
+          "discharge_summary_unstructured.pdf",
+          "lab_report_unstructured.txt"
+        ],
+        "routing_destination": "Heart failure service",
+        "follow_up_window": "Within 48 hours",
+        "display_interpretation": null,
+        "display_concern": null,
+        "display_intervention": null
+      },
+      {
+        "finding": "HbA1c 9.2%",
+        "meaning": "Poor glycaemic control",
+        "implication": "Higher follow-up priority and risk of diabetes complications",
+        "action": "Route to the diabetes nurse specialist within 7 days",
+        "weight": 30,
+        "evidence_type": "Expert rule association",
+        "evidence_basis": "Glycaemic-control follow-up rule",
+        "source_documents": [
+          "discharge_summary_unstructured.pdf"
+        ],
+        "routing_destination": "Diabetes nurse specialist",
+        "follow_up_window": "Within 7 days",
+        "display_interpretation": null,
+        "display_concern": null,
+        "display_intervention": null
+      },
+      {
+        "finding": "Iodinated contrast allergy + allergy record \u2014 this is currently filed as 'severe allergy' in SystmOne \n which is WRONG",
+        "meaning": "Incorrect allergy severity may be recorded",
+        "implication": "An inaccurate severe-allergy label could affect future imaging and treatment decisions",
+        "action": "Verify the original contrast reaction and correct the allergy record",
+        "weight": 30,
+        "evidence_type": "Expert rule association",
+        "evidence_basis": "Cross-record allergy documentation safety rule",
+        "source_documents": [
+          "gp_clinical_note.md"
+        ],
+        "routing_destination": "Clinical records team / prescribing clinician",
+        "follow_up_window": "Before end of week",
+        "display_interpretation": null,
+        "display_concern": null,
+        "display_intervention": null
+      }
+    ],
+    "model_name": "Clinical lexicon + regex baseline",
+    "limitations": [
+      "Documents are combined only after patient-identity checks.",
+      "Recommendations are workflow support, not autonomous clinical decisions.",
+      "Graph edges distinguish observations, expert-rule associations and intervention hypotheses."
+    ],
+    "medication_records": []
+  },
+  "documents": [
+    {
+      "document_id": "discharge_summary_unstructured.pdf",
+      "document_name": "discharge_summary_unstructured.pdf",
+      "sequence": 1,
+      "document_date": "2024-06-14",
+      "admission_date": "2024-06-09",
+      "discharge_date": "2024-06-14",
+      "follow_up_date": null,
+      "medication_records": [
+        {
+          "medication": "Metformin 500mg BD",
+          "phase": "On admission",
+          "status": "Not reliably taking before admission",
+          "confidence": "High",
+          "source_text": "Metformin 500mg BD \u2014 NOTE: patient states she stopped this herself 'a few months ago' due to GI upset.",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Insulin Glargine (Lantus) 24 units at night",
+          "phase": "On admission",
+          "status": "Active on admission",
+          "confidence": "High",
+          "source_text": "Insulin Glargine (Lantus) 24 units at night. Ramipril 10mg OD. Amlodipine 10mg OD. Atorvastatin 80mg nocte.",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Ramipril 10mg OD",
+          "phase": "On admission",
+          "status": "Active on admission",
+          "confidence": "High",
+          "source_text": "Insulin Glargine (Lantus) 24 units at night. Ramipril 10mg OD. Amlodipine 10mg OD. Atorvastatin 80mg nocte.",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Amlodipine 10mg OD",
+          "phase": "On admission",
+          "status": "Active on admission",
+          "confidence": "High",
+          "source_text": "Insulin Glargine (Lantus) 24 units at night. Ramipril 10mg OD. Amlodipine 10mg OD. Atorvastatin 80mg nocte.",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Atorvastatin 80mg nocte",
+          "phase": "On admission",
+          "status": "Active on admission",
+          "confidence": "High",
+          "source_text": "Insulin Glargine (Lantus) 24 units at night. Ramipril 10mg OD. Amlodipine 10mg OD. Atorvastatin 80mg nocte.",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Aspirin 75mg OD",
+          "phase": "On admission",
+          "status": "Active on admission",
+          "confidence": "High",
+          "source_text": "Aspirin 75mg OD. Clopidogrel 75mg OD. Bisoprolol 5mg OD (patient unsure if she is still taking this \u2014 'I ran out",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Clopidogrel 75mg OD",
+          "phase": "On admission",
+          "status": "Active on admission",
+          "confidence": "High",
+          "source_text": "Aspirin 75mg OD. Clopidogrel 75mg OD. Bisoprolol 5mg OD (patient unsure if she is still taking this \u2014 'I ran out",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Bisoprolol 5mg OD",
+          "phase": "On admission",
+          "status": "Not reliably taking before admission",
+          "confidence": "High",
+          "source_text": "Aspirin 75mg OD. Clopidogrel 75mg OD. Bisoprolol 5mg OD (patient unsure if she is still taking this \u2014 'I ran out",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Omeprazole 20mg OD",
+          "phase": "On admission",
+          "status": "Active on admission",
+          "confidence": "High",
+          "source_text": "last month'). Omeprazole 20mg OD (PRN \u2014 rarely takes it).",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "enoxaparin 1mg/kg BD",
+          "phase": "Current / documented",
+          "status": "Active",
+          "confidence": "High",
+          "source_text": "IV GTN, low molecular weight heparin (enoxaparin 1mg/kg BD \u2014 dose-adjusted for CKD). Cardiology team",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Sacubitril-Valsartan 24/26 mg BD",
+          "phase": "Current / documented",
+          "status": "New",
+          "confidence": "High",
+          "source_text": "view of reduced EF \u2014 commenced Sacubitril-Valsartan 24/26 mg BD (Entresto) in place of ramipril. Bisoprolol",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "ramipril",
+          "phase": "Current / documented",
+          "status": "Stopped",
+          "confidence": "High",
+          "source_text": "view of reduced EF \u2014 commenced Sacubitril-Valsartan 24/26 mg BD (Entresto) in place of ramipril. Bisoprolol",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Furosemide 40mg OD",
+          "phase": "Current / documented",
+          "status": "Active",
+          "confidence": "High",
+          "source_text": "uptitrated to 7.5 mg OD. Furosemide 40mg OD added for fluid overload. Anaemia worked up \u2014 iron studies",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "ferrous sulphate 200mg BD",
+          "phase": "Current / documented",
+          "status": "New",
+          "confidence": "High",
+          "source_text": "suggest iron deficiency (ferritin 11), commenced oral ferrous sulphate 200mg BD. Diabetic team reviewed \u2014",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Ramipril",
+          "phase": "At discharge",
+          "status": "Stopped",
+          "confidence": "High",
+          "source_text": "STOPPED: Ramipril (replaced by Entresto). Metformin (withheld \u2014 do not restart until eGFR > 60 and contrast",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Sacubitril-Valsartan (Entresto) 24/26mg BD",
+          "phase": "At discharge",
+          "status": "New",
+          "confidence": "High",
+          "source_text": "Sacubitril-Valsartan (Entresto) 24/26mg BD \u2014 titrate up at 4 weeks if tolerated. Furosemide 40mg OD. Ferrous",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Furosemide 40mg OD",
+          "phase": "At discharge",
+          "status": "New",
+          "confidence": "High",
+          "source_text": "Sacubitril-Valsartan (Entresto) 24/26mg BD \u2014 titrate up at 4 weeks if tolerated. Furosemide 40mg OD. Ferrous",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Atorvastatin 80mg",
+          "phase": "At discharge",
+          "status": "Continued",
+          "confidence": "High",
+          "source_text": "Sulphate 200mg BD (with food). CONTINUED: Atorvastatin 80mg, Aspirin 75mg, Clopidogrel 75mg,",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Aspirin 75mg",
+          "phase": "At discharge",
+          "status": "Continued",
+          "confidence": "High",
+          "source_text": "Sulphate 200mg BD (with food). CONTINUED: Atorvastatin 80mg, Aspirin 75mg, Clopidogrel 75mg,",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Clopidogrel 75mg",
+          "phase": "At discharge",
+          "status": "Continued",
+          "confidence": "High",
+          "source_text": "Sulphate 200mg BD (with food). CONTINUED: Atorvastatin 80mg, Aspirin 75mg, Clopidogrel 75mg,",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        },
+        {
+          "medication": "Omeprazole 20mg OD",
+          "phase": "At discharge",
+          "status": "Continued",
+          "confidence": "High",
+          "source_text": "Omeprazole 20mg OD (now regular, not PRN, given dual antiplatelets).",
+          "source_document": "discharge_summary_unstructured.pdf",
+          "history": []
+        }
+      ],
+      "context_flags": [
+        "follow-up plan",
+        "social context",
+        "cognitive context",
+        "smoking history"
+      ],
+      "result": {
+        "document_type": "Discharge Summary",
+        "patient_details": {
+          "name": "Margaret Elaine Forsythe",
+          "age": 66,
+          "gender": "Female"
+        },
+        "summary": "Margaret Elaine Forsythe was reviewed from a discharge summary. Conditions documented include type 2 diabetes mellitus, hypertension. Key findings include eGFR 68, BNP: 810 pg/mL, central chest pain, diaphoresis. Documented treatment includes Metformin 500mg BD, Insulin Glargine (Lantus) 24 units at night. The case needs prompt review. A qualified professional should confirm the result.",
+        "entities": [
+          {
+            "text": "type 2 diabetes mellitus",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 450,
+            "end": 474,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "hypertension",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 476,
+            "end": 488,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "ischaemic heart disease",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 500,
+            "end": 523,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "central chest pain",
+            "label": "SYMPTOM",
+            "confidence": 0.86,
+            "start": 615,
+            "end": 633,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "chest pain",
+            "label": "RED_FLAG",
+            "confidence": 0.88,
+            "start": 623,
+            "end": 633,
+            "source": "clinical-lexicon",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "diaphoresis",
+            "label": "SYMPTOM",
+            "confidence": 0.9,
+            "start": 677,
+            "end": 688,
+            "source": "clinical-lexicon",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "shortness of breath",
+            "label": "SYMPTOM",
+            "confidence": 0.86,
+            "start": 693,
+            "end": 712,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Type 2 Diabetes Mellitus",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 1138,
+            "end": 1162,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Hypertension",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 1204,
+            "end": 1216,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Ischaemic Heart Disease",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 1267,
+            "end": 1290,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "CKD Stage 2",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 1363,
+            "end": 1374,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "eGFR 68",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 1381,
+            "end": 1389,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Metformin 500mg BD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1531,
+            "end": 1549,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Insulin Glargine (Lantus) 24 units at night",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1634,
+            "end": 1677,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Ramipril 10mg OD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1679,
+            "end": 1695,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Amlodipine 10mg OD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1697,
+            "end": 1715,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Atorvastatin 80mg nocte",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1717,
+            "end": 1740,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Aspirin 75mg OD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1742,
+            "end": 1757,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Clopidogrel 75mg OD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1759,
+            "end": 1778,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Bisoprolol 5mg OD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1780,
+            "end": 1797,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Omeprazole 20mg OD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1869,
+            "end": 1887,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "PENICILLIN \u2014 anaphylaxis",
+            "label": "ALLERGY",
+            "confidence": 0.86,
+            "start": 1943,
+            "end": 1967,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Codeine \u2014 causes severe nausea",
+            "label": "ADVERSE_REACTION",
+            "confidence": 0.86,
+            "start": 1982,
+            "end": 2012,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "nausea",
+            "label": "SYMPTOM",
+            "confidence": 0.9,
+            "start": 2006,
+            "end": 2012,
+            "source": "clinical-lexicon",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Contrast dye",
+            "label": "ALLERGY",
+            "confidence": 0.86,
+            "start": 2014,
+            "end": 2027,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "BNP: 810 pg/mL",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 2400,
+            "end": 2414,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Creatinine 118 umol/L",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 2553,
+            "end": 2574,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "eGFR 52",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 2576,
+            "end": 2584,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "HbA1c: 9.2%",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 2610,
+            "end": 2621,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "NSTEMI",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 3029,
+            "end": 3035,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "enoxaparin 1mg/kg BD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 3132,
+            "end": 3152,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "CKD",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 3173,
+            "end": 3176,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "HF",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 3382,
+            "end": 3384,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Sacubitril-Valsartan 24/26 mg BD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 3433,
+            "end": 3465,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "ramipril",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 3489,
+            "end": 3497,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Furosemide 40mg OD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 3535,
+            "end": 3553,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "fluid overload",
+            "label": "RED_FLAG",
+            "confidence": 0.88,
+            "start": 3564,
+            "end": 3578,
+            "source": "clinical-lexicon",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "ferritin 11",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 3638,
+            "end": 3649,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "ferrous sulphate 200mg BD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 3667,
+            "end": 3692,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "CKD",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 3744,
+            "end": 3747,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "NSTEMI",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 3948,
+            "end": 3954,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "heart failure",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 4050,
+            "end": 4063,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Type 2 Diabetes Mellitus",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 4077,
+            "end": 4101,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "HbA1c 9.2%",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 4129,
+            "end": 4139,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "CKD Stage 3a",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 4173,
+            "end": 4185,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "eGFR 52",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 4205,
+            "end": 4212,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Ramipril",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 4300,
+            "end": 4308,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Sacubitril-Valsartan (Entresto) 24/26mg BD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 4505,
+            "end": 4547,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Furosemide 40mg OD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 4586,
+            "end": 4604,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Atorvastatin 80mg",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 4656,
+            "end": 4673,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Aspirin 75mg",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 4675,
+            "end": 4687,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Clopidogrel 75mg",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 4689,
+            "end": 4705,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Omeprazole 20mg OD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 4707,
+            "end": 4725,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "fluid overload",
+            "label": "RED_FLAG",
+            "confidence": 0.88,
+            "start": 4939,
+            "end": 4953,
+            "source": "clinical-lexicon",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "GP to check U&E and eGFR in 2\nweeks",
+            "label": "FOLLOW_UP",
+            "confidence": 0.86,
+            "start": 4997,
+            "end": 5032,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "HbA1c to be rechecked in 3 months",
+            "label": "FOLLOW_UP",
+            "confidence": 0.86,
+            "start": 5100,
+            "end": 5133,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Cardiology OPD in 6 weeks",
+            "label": "FOLLOW_UP",
+            "confidence": 0.86,
+            "start": 5135,
+            "end": 5160,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "HF",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 5162,
+            "end": 5164,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "HF Nurse Specialist to contact within 48 hours of discharge",
+            "label": "FOLLOW_UP",
+            "confidence": 0.86,
+            "start": 5162,
+            "end": 5221,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          },
+          {
+            "text": "Iodinated contrast allergy",
+            "label": "ALLERGY",
+            "confidence": 0.86,
+            "start": 5349,
+            "end": 5375,
+            "source": "clinical-pattern",
+            "document_id": "discharge_summary_unstructured.pdf"
+          }
+        ],
+        "missing_information": [
+          "contrast reaction details",
+          "medication adherence history",
+          "smoking cessation date",
+          "formal cognitive assessment"
+        ],
+        "red_flags": [
+          "chest pain",
+          "fluid overload"
+        ],
+        "risk_score": 61,
+        "risk_level": "High",
+        "recommended_action": "Escalate to the acute cardiac pathway Also: Arrange early heart failure follow-up Also: Route to the diabetes nurse specialist within 7 days.",
+        "causal_links": [
+          {
+            "finding": "chest pain + ST depression",
+            "meaning": "Possible acute cardiac concern",
+            "implication": "Urgent review is required because symptoms and electrocardiogram findings occur together",
+            "action": "Escalate to the acute cardiac pathway",
+            "weight": 40,
+            "evidence_type": "Expert rule association",
+            "evidence_basis": "Chest pain plus electrocardiogram change safety rule",
+            "source_documents": [
+              "discharge_summary_unstructured.pdf"
+            ],
+            "routing_destination": "Acute cardiac team",
+            "follow_up_window": "Immediate / same day",
+            "display_interpretation": null,
+            "display_concern": null,
+            "display_intervention": null
+          },
+          {
+            "finding": "BNP: 810 + fluid overload",
+            "meaning": "Potentially unstable heart failure",
+            "implication": "Higher risk of deterioration or readmission",
+            "action": "Arrange early heart failure follow-up",
+            "weight": 35,
+            "evidence_type": "Expert rule association",
+            "evidence_basis": "Heart-failure deterioration follow-up rule",
+            "source_documents": [
+              "discharge_summary_unstructured.pdf",
+              "lab_report_unstructured.txt"
+            ],
+            "routing_destination": "Heart failure service",
+            "follow_up_window": "Within 48 hours",
+            "display_interpretation": null,
+            "display_concern": null,
+            "display_intervention": null
+          },
+          {
+            "finding": "HbA1c 9.2%",
+            "meaning": "Poor glycaemic control",
+            "implication": "Higher follow-up priority and risk of diabetes complications",
+            "action": "Route to the diabetes nurse specialist within 7 days",
+            "weight": 30,
+            "evidence_type": "Expert rule association",
+            "evidence_basis": "Glycaemic-control follow-up rule",
+            "source_documents": [
+              "discharge_summary_unstructured.pdf"
+            ],
+            "routing_destination": "Diabetes nurse specialist",
+            "follow_up_window": "Within 7 days",
+            "display_interpretation": null,
+            "display_concern": null,
+            "display_intervention": null
+          }
+        ],
+        "model_name": "Clinical lexicon + regex baseline",
+        "limitations": [
+          "Prototype output requires human review.",
+          "Priority scores are workflow indicators, not calibrated clinical probabilities."
+        ],
+        "medication_records": []
+      }
+    },
+    {
+      "document_id": "lab_report_unstructured.txt",
+      "document_name": "lab_report_unstructured.txt",
+      "sequence": 2,
+      "document_date": "2024-06-10",
+      "admission_date": null,
+      "discharge_date": null,
+      "follow_up_date": null,
+      "medication_records": [],
+      "context_flags": [],
+      "result": {
+        "document_type": "Lab Report",
+        "patient_details": {
+          "name": "Margaret Elaine Forsythe",
+          "age": 66,
+          "gender": "Female"
+        },
+        "summary": "Margaret Elaine Forsythe was reviewed from a lab report. Conditions documented include CKD, NSTEMI. Key findings include Haemoglobin: 10.9 g/dL, Creatinine: 118 umol/L. The case needs prompt review. A qualified professional should confirm the result.",
+        "entities": [
+          {
+            "text": "Haemoglobin: 10.9 g/dL",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 605,
+            "end": 627,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "Creatinine: 118 umol/L",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 1387,
+            "end": 1409,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "eGFR (CKD-EPI): 52 mL/min/1.73m2",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 1443,
+            "end": 1475,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "CKD",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 1449,
+            "end": 1452,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "Troponin I (hsTnI) @ 02:55: 142 ng/L",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 1651,
+            "end": 1687,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "Troponin I (hsTnI) @ 05:55: 389 ng/L",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 1727,
+            "end": 1763,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "Rising troponin pattern",
+            "label": "RED_FLAG",
+            "confidence": 0.86,
+            "start": 1820,
+            "end": 1843,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "NSTEMI",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 1918,
+            "end": 1924,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "NSTEMI criteria met",
+            "label": "RED_FLAG",
+            "confidence": 0.86,
+            "start": 1918,
+            "end": 1937,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "BNP (B-type Natriuretic Peptide): 810 pg/mL",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 1940,
+            "end": 1983,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "MARKEDLY ELEVATED",
+            "label": "RED_FLAG",
+            "confidence": 0.86,
+            "start": 2006,
+            "end": 2023,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "heart failure",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 2103,
+            "end": 2116,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "HbA1c: 9.2%",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 2562,
+            "end": 2573,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "POOR GLYCAEMIC CONTROL",
+            "label": "RED_FLAG",
+            "confidence": 0.86,
+            "start": 2632,
+            "end": 2654,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "Random Glucose: 13.4 mmol/L",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 2658,
+            "end": 2685,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "Ferritin: 11 ug/L",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 2750,
+            "end": 2767,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "iron deficiency anaemia",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 3065,
+            "end": 3088,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          },
+          {
+            "text": "TSH: 2.4 mU/L",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 3612,
+            "end": 3625,
+            "source": "clinical-pattern",
+            "document_id": "lab_report_unstructured.txt"
+          }
+        ],
+        "missing_information": [],
+        "red_flags": [
+          "Rising troponin pattern",
+          "NSTEMI criteria met",
+          "MARKEDLY ELEVATED",
+          "POOR GLYCAEMIC CONTROL"
+        ],
+        "risk_score": 52,
+        "risk_level": "High",
+        "recommended_action": "Escalate to the acute cardiac pathway Also: Arrange early heart failure follow-up.",
+        "causal_links": [
+          {
+            "finding": "Troponin I (hsTnI) @ 02:55: 142 ng/L + SIGNIFICANT RISE",
+            "meaning": "Acute myocardial injury pattern",
+            "implication": "A rising troponin pattern with documented acute myocardial injury requires urgent cardiac review",
+            "action": "Escalate to the acute cardiac pathway",
+            "weight": 45,
+            "evidence_type": "Expert rule association",
+            "evidence_basis": "Troponin trend and myocardial-injury safety rule",
+            "source_documents": [
+              "lab_report_unstructured.txt"
+            ],
+            "routing_destination": "Acute cardiac team",
+            "follow_up_window": "Immediate / same day",
+            "display_interpretation": null,
+            "display_concern": null,
+            "display_intervention": null
+          },
+          {
+            "finding": "BNP (B-type Natriuretic Peptide): 810 + volume overload",
+            "meaning": "Potentially unstable heart failure",
+            "implication": "Higher risk of deterioration or readmission",
+            "action": "Arrange early heart failure follow-up",
+            "weight": 35,
+            "evidence_type": "Expert rule association",
+            "evidence_basis": "Heart-failure deterioration follow-up rule",
+            "source_documents": [
+              "lab_report_unstructured.txt"
+            ],
+            "routing_destination": "Heart failure service",
+            "follow_up_window": "Within 48 hours",
+            "display_interpretation": null,
+            "display_concern": null,
+            "display_intervention": null
+          }
+        ],
+        "model_name": "Clinical lexicon + regex baseline",
+        "limitations": [
+          "Prototype output requires human review.",
+          "Priority scores are workflow indicators, not calibrated clinical probabilities."
+        ],
+        "medication_records": []
+      }
+    },
+    {
+      "document_id": "gp_clinical_note.md",
+      "document_name": "gp_clinical_note.md",
+      "sequence": 3,
+      "document_date": "2024-06-17",
+      "admission_date": null,
+      "discharge_date": null,
+      "follow_up_date": null,
+      "medication_records": [
+        {
+          "medication": "Entresto (sacubitril/valsartan 24/26mg BD)",
+          "phase": "Post-discharge review",
+          "status": "New",
+          "confidence": "High",
+          "source_text": "- Entresto (sacubitril/valsartan 24/26mg BD) \u2014 NEW, she's started it, seems ok so far,",
+          "source_document": "gp_clinical_note.md",
+          "history": []
+        },
+        {
+          "medication": "ramipril",
+          "phase": "Post-discharge review",
+          "status": "Taken in error",
+          "confidence": "High",
+          "source_text": "reminded her the ramipril is STOPPED. She had some left in her pill box and had taken",
+          "source_document": "gp_clinical_note.md",
+          "history": []
+        },
+        {
+          "medication": "Bisoprolol 7.5mg OD",
+          "phase": "Post-discharge review",
+          "status": "Dose changed",
+          "confidence": "High",
+          "source_text": "- Bisoprolol 7.5mg OD \u2014 increased from 5mg. She's managing it. Pulse today 58 \u2014 acceptable.",
+          "source_document": "gp_clinical_note.md",
+          "history": []
+        },
+        {
+          "medication": "Furosemide 40mg OD",
+          "phase": "Current / documented",
+          "status": "New",
+          "confidence": "High",
+          "source_text": "- Furosemide 40mg OD \u2014 new addition. She's noticed she's going to the loo more in the morning.",
+          "source_document": "gp_clinical_note.md",
+          "history": []
+        },
+        {
+          "medication": "Aspirin 75mg",
+          "phase": "Current / documented",
+          "status": "Continued",
+          "confidence": "High",
+          "source_text": "- Aspirin 75mg + Clopidogrel 75mg \u2014 continuing both. I've prescribed the omeprazole 20mg as",
+          "source_document": "gp_clinical_note.md",
+          "history": []
+        },
+        {
+          "medication": "Clopidogrel 75mg",
+          "phase": "Current / documented",
+          "status": "Continued",
+          "confidence": "High",
+          "source_text": "- Aspirin 75mg + Clopidogrel 75mg \u2014 continuing both. I've prescribed the omeprazole 20mg as",
+          "source_document": "gp_clinical_note.md",
+          "history": []
+        },
+        {
+          "medication": "omeprazole 20mg",
+          "phase": "Current / documented",
+          "status": "Active",
+          "confidence": "High",
+          "source_text": "- Aspirin 75mg + Clopidogrel 75mg \u2014 continuing both. I've prescribed the omeprazole 20mg as",
+          "source_document": "gp_clinical_note.md",
+          "history": []
+        },
+        {
+          "medication": "Atorvastatin 80mg nocte",
+          "phase": "Current / documented",
+          "status": "Continued",
+          "confidence": "High",
+          "source_text": "- Atorvastatin 80mg nocte \u2014 continuing, no issues.",
+          "source_document": "gp_clinical_note.md",
+          "history": []
+        },
+        {
+          "medication": "Insulin Glargine 28 units nocte",
+          "phase": "Current / documented",
+          "status": "Active",
+          "confidence": "High",
+          "source_text": "- Insulin Glargine 28 units nocte \u2014 increased by diabetic team. Blood sugars she says have been",
+          "source_document": "gp_clinical_note.md",
+          "history": []
+        },
+        {
+          "medication": "Ferrous Sulphate 200mg BD",
+          "phase": "Current / documented",
+          "status": "New",
+          "confidence": "High",
+          "source_text": "- Ferrous Sulphate 200mg BD \u2014 new. Tolerating ok with food.",
+          "source_document": "gp_clinical_note.md",
+          "history": []
+        }
+      ],
+      "context_flags": [
+        "follow-up plan",
+        "social context",
+        "cognitive context",
+        "smoking history"
+      ],
+      "result": {
+        "document_type": "GP Consultation Note",
+        "patient_details": {
+          "name": "Margaret Forsythe",
+          "age": 66,
+          "gender": "Not identified"
+        },
+        "summary": "Margaret Forsythe was reviewed from a gp consultation note. Conditions documented include CKD, post-MI. Key findings include BP: 118/72, O2 sats: 96%, breathless, Ankles still slightly puffy. Documented treatment includes Entresto (sacubitril/valsartan 24/26mg BD), ramipril. The case needs prompt review. A qualified professional should confirm the result.",
+        "entities": [
+          {
+            "text": "breathless",
+            "label": "SYMPTOM",
+            "confidence": 0.86,
+            "start": 333,
+            "end": 343,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "Ankles still slightly puffy",
+            "label": "SYMPTOM",
+            "confidence": 0.86,
+            "start": 405,
+            "end": 432,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "Entresto (sacubitril/valsartan 24/26mg BD)",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 693,
+            "end": 735,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "dizziness",
+            "label": "SYMPTOM",
+            "confidence": 0.86,
+            "start": 787,
+            "end": 796,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "ramipril",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 885,
+            "end": 893,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "risk of angioedema",
+            "label": "RED_FLAG",
+            "confidence": 0.86,
+            "start": 1045,
+            "end": 1063,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "Bisoprolol 7.5mg OD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1106,
+            "end": 1125,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "Furosemide 40mg OD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1218,
+            "end": 1236,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "Aspirin 75mg",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1346,
+            "end": 1359,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "Clopidogrel 75mg",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1361,
+            "end": 1378,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "omeprazole 20mg",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1417,
+            "end": 1433,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "Atorvastatin 80mg nocte",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1525,
+            "end": 1548,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "Insulin Glargine 28 units nocte",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1577,
+            "end": 1608,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "Ferrous Sulphate 200mg BD",
+            "label": "MEDICATION",
+            "confidence": 0.86,
+            "start": 1738,
+            "end": 1763,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "CKD",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 2047,
+            "end": 2050,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "BP: 118/72",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 2205,
+            "end": 2215,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "O2 sats: 96%",
+            "label": "LAB_RESULT",
+            "confidence": 0.86,
+            "start": 2413,
+            "end": 2425,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "bibasal crackles",
+            "label": "SYMPTOM",
+            "confidence": 0.86,
+            "start": 2445,
+            "end": 2461,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "pitting oedema",
+            "label": "SYMPTOM",
+            "confidence": 0.86,
+            "start": 2526,
+            "end": 2540,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "Fall risk",
+            "label": "RED_FLAG",
+            "confidence": 0.86,
+            "start": 2624,
+            "end": 2633,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "Iodinated contrast allergy",
+            "label": "ALLERGY",
+            "confidence": 0.86,
+            "start": 3249,
+            "end": 3275,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "rash, mild, resolving spontaneously",
+            "label": "ALLERGY",
+            "confidence": 0.86,
+            "start": 3430,
+            "end": 3465,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "allergy record \u2014 this is currently filed as 'severe allergy' in SystmOne \n which is WRONG",
+            "label": "RED_FLAG",
+            "confidence": 0.86,
+            "start": 3527,
+            "end": 3616,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "post-MI",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 3964,
+            "end": 3971,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "HF",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 3974,
+            "end": 3976,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "HF",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 4454,
+            "end": 4456,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "HF nurse specialist \u2014 hospital team said they'd call within 48h of discharge",
+            "label": "FOLLOW_UP",
+            "confidence": 0.86,
+            "start": 4454,
+            "end": 4530,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "no-one has called yet",
+            "label": "RED_FLAG",
+            "confidence": 0.86,
+            "start": 4547,
+            "end": 4568,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "HF",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 4607,
+            "end": 4609,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "Diabetic nurse review \u2014 I'll book in 4-6 weeks",
+            "label": "FOLLOW_UP",
+            "confidence": 0.86,
+            "start": 4854,
+            "end": 4900,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "Allergy record correction \u2014 action me to do this in SystmOne before end of week",
+            "label": "FOLLOW_UP",
+            "confidence": 0.86,
+            "start": 4931,
+            "end": 5010,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "Next appointment: 2 weeks",
+            "label": "FOLLOW_UP",
+            "confidence": 0.86,
+            "start": 5222,
+            "end": 5247,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          },
+          {
+            "text": "HF",
+            "label": "DIAGNOSIS",
+            "confidence": 0.86,
+            "start": 5365,
+            "end": 5367,
+            "source": "clinical-pattern",
+            "document_id": "gp_clinical_note.md"
+          }
+        ],
+        "missing_information": [
+          "pending vitamin B12 and folate"
+        ],
+        "red_flags": [
+          "risk of angioedema",
+          "Fall risk",
+          "allergy record \u2014 this is currently filed as 'severe allergy' in SystmOne \n which is WRONG",
+          "no-one has called yet"
+        ],
+        "risk_score": 48,
+        "risk_level": "High",
+        "recommended_action": "Escalate for same-day medication safety review and confirm ramipril is stopped Also: Verify the original contrast reaction and correct the allergy record.",
+        "causal_links": [
+          {
+            "finding": "ramipril + Entresto + risk of angioedema",
+            "meaning": "Potential ACE inhibitor and Entresto interaction",
+            "implication": "Taking ramipril close to Entresto can create a serious medication-safety concern",
+            "action": "Escalate for same-day medication safety review and confirm ramipril is stopped",
+            "weight": 40,
+            "evidence_type": "Expert rule association",
+            "evidence_basis": "ACE inhibitor and neprilysin-inhibitor medication safety rule",
+            "source_documents": [
+              "gp_clinical_note.md"
+            ],
+            "routing_destination": "Prescribing clinician / heart failure team",
+            "follow_up_window": "Immediate / same day",
+            "display_interpretation": null,
+            "display_concern": null,
+            "display_intervention": null
+          },
+          {
+            "finding": "Iodinated contrast allergy + allergy record \u2014 this is currently filed as 'severe allergy' in SystmOne \n which is WRONG",
+            "meaning": "Incorrect allergy severity may be recorded",
+            "implication": "An inaccurate severe-allergy label could affect future imaging and treatment decisions",
+            "action": "Verify the original contrast reaction and correct the allergy record",
+            "weight": 30,
+            "evidence_type": "Expert rule association",
+            "evidence_basis": "Cross-record allergy documentation safety rule",
+            "source_documents": [
+              "gp_clinical_note.md"
+            ],
+            "routing_destination": "Clinical records team / prescribing clinician",
+            "follow_up_window": "Before end of week",
+            "display_interpretation": null,
+            "display_concern": null,
+            "display_intervention": null
+          }
+        ],
+        "model_name": "Clinical lexicon + regex baseline",
+        "limitations": [
+          "Prototype output requires human review.",
+          "Priority scores are workflow indicators, not calibrated clinical probabilities."
+        ],
+        "medication_records": []
+      }
+    }
+  ],
+  "action_items": [
+    {
+      "action": "Escalate to the acute cardiac pathway",
+      "route_to": "Acute cardiac team",
+      "due_by": "Immediate / same day",
+      "reason": "Possible acute cardiac concern; Acute myocardial injury pattern",
+      "priority": "High",
+      "source_documents": [
+        "discharge_summary_unstructured.pdf",
+        "lab_report_unstructured.txt"
+      ],
+      "urgency_score": 45,
+      "status": "Open - requires human confirmation",
+      "evidence_basis": "Chest pain plus electrocardiogram change safety rule"
+    },
+    {
+      "action": "Escalate for same-day medication safety review and confirm ramipril is stopped",
+      "route_to": "Prescribing clinician / heart failure team",
+      "due_by": "Immediate / same day",
+      "reason": "Potential ACE inhibitor and Entresto interaction",
+      "priority": "High",
+      "source_documents": [
+        "gp_clinical_note.md"
+      ],
+      "urgency_score": 40,
+      "status": "Open - requires human confirmation",
+      "evidence_basis": "ACE inhibitor and neprilysin-inhibitor medication safety rule"
+    },
+    {
+      "action": "Arrange early heart failure follow-up",
+      "route_to": "Heart failure service",
+      "due_by": "Within 48 hours",
+      "reason": "Potentially unstable heart failure",
+      "priority": "High",
+      "source_documents": [
+        "discharge_summary_unstructured.pdf",
+        "lab_report_unstructured.txt"
+      ],
+      "urgency_score": 35,
+      "status": "Open - requires human confirmation",
+      "evidence_basis": "Heart-failure deterioration follow-up rule"
+    },
+    {
+      "action": "Verify the original contrast reaction and correct the allergy record",
+      "route_to": "Clinical records team / prescribing clinician",
+      "due_by": "Before end of week",
+      "reason": "Incorrect allergy severity may be recorded",
+      "priority": "High",
+      "source_documents": [
+        "gp_clinical_note.md"
+      ],
+      "urgency_score": 30,
+      "status": "Open - requires human confirmation",
+      "evidence_basis": "Cross-record allergy documentation safety rule"
+    },
+    {
+      "action": "Route to the diabetes nurse specialist within 7 days",
+      "route_to": "Diabetes nurse specialist",
+      "due_by": "Within 7 days",
+      "reason": "Poor glycaemic control",
+      "priority": "High",
+      "source_documents": [
+        "discharge_summary_unstructured.pdf"
+      ],
+      "urgency_score": 30,
+      "status": "Open - requires human confirmation",
+      "evidence_basis": "Glycaemic-control follow-up rule"
+    },
+    {
+      "action": "Confirm contrast reaction details",
+      "route_to": "Document review queue",
+      "due_by": "Before case closure",
+      "reason": "Required information is absent or unclear",
+      "priority": "Medium",
+      "source_documents": [
+        "discharge_summary_unstructured.pdf"
+      ],
+      "urgency_score": 0,
+      "status": "Open - requires human confirmation",
+      "evidence_basis": "Completeness check"
+    },
+    {
+      "action": "Confirm formal cognitive assessment",
+      "route_to": "Document review queue",
+      "due_by": "Before case closure",
+      "reason": "Required information is absent or unclear",
+      "priority": "Medium",
+      "source_documents": [
+        "discharge_summary_unstructured.pdf"
+      ],
+      "urgency_score": 0,
+      "status": "Open - requires human confirmation",
+      "evidence_basis": "Completeness check"
+    },
+    {
+      "action": "Confirm medication adherence history",
+      "route_to": "Document review queue",
+      "due_by": "Before case closure",
+      "reason": "Required information is absent or unclear",
+      "priority": "Medium",
+      "source_documents": [
+        "discharge_summary_unstructured.pdf"
+      ],
+      "urgency_score": 0,
+      "status": "Open - requires human confirmation",
+      "evidence_basis": "Completeness check"
+    },
+    {
+      "action": "Confirm pending vitamin B12 and folate",
+      "route_to": "Document review queue",
+      "due_by": "Before case closure",
+      "reason": "Required information is absent or unclear",
+      "priority": "Medium",
+      "source_documents": [
+        "gp_clinical_note.md"
+      ],
+      "urgency_score": 0,
+      "status": "Open - requires human confirmation",
+      "evidence_basis": "Completeness check"
+    },
+    {
+      "action": "Confirm smoking cessation date",
+      "route_to": "Document review queue",
+      "due_by": "Before case closure",
+      "reason": "Required information is absent or unclear",
+      "priority": "Medium",
+      "source_documents": [
+        "discharge_summary_unstructured.pdf"
+      ],
+      "urgency_score": 0,
+      "status": "Open - requires human confirmation",
+      "evidence_basis": "Completeness check"
+    }
+  ],
+  "overall_recommendation": {
+    "priority": "High",
+    "headline": "High-priority coordinated review",
+    "immediate_next_step": "Escalate to the acute cardiac pathway",
+    "coordination_plan": "Escalate for same-day medication safety review and confirm ramipril is stopped via Prescribing clinician / heart failure team; Arrange early heart failure follow-up via Heart failure service; confirm 5 missing information items before case closure; reconcile conflicting information across the record.",
+    "timeframe": "Immediate / same day",
+    "rationale": "Possible acute cardiac concern; Acute myocardial injury pattern; additional concerns include potential ace inhibitor and entresto interaction, potentially unstable heart failure.",
+    "source_documents": [
+      "discharge_summary_unstructured.pdf",
+      "lab_report_unstructured.txt",
+      "gp_clinical_note.md"
+    ]
+  },
+  "medication_records": [
+    {
+      "medication": "Amlodipine 10 mg OD",
+      "phase": "On admission",
+      "status": "Active on admission",
+      "confidence": "High",
+      "source_text": "Insulin Glargine (Lantus) 24 units at night. Ramipril 10mg OD. Amlodipine 10mg OD. Atorvastatin 80mg nocte.",
+      "source_document": "discharge_summary_unstructured.pdf",
+      "history": [
+        {
+          "stage": "On admission",
+          "status": "Active on admission",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "Insulin Glargine (Lantus) 24 units at night. Ramipril 10mg OD. Amlodipine 10mg OD. Atorvastatin 80mg nocte."
+        }
+      ]
+    },
+    {
+      "medication": "Aspirin 75 mg",
+      "phase": "Current / documented",
+      "status": "Continued",
+      "confidence": "High",
+      "source_text": "- Aspirin 75mg + Clopidogrel 75mg \u2014 continuing both. I've prescribed the omeprazole 20mg as",
+      "source_document": "discharge_summary_unstructured.pdf; gp_clinical_note.md",
+      "history": [
+        {
+          "stage": "On admission",
+          "status": "Active on admission",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "Aspirin 75mg OD. Clopidogrel 75mg OD. Bisoprolol 5mg OD (patient unsure if she is still taking this \u2014 'I ran out"
+        },
+        {
+          "stage": "At discharge",
+          "status": "Continued",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "Sulphate 200mg BD (with food). CONTINUED: Atorvastatin 80mg, Aspirin 75mg, Clopidogrel 75mg,"
+        },
+        {
+          "stage": "Current / documented",
+          "status": "Continued",
+          "source": "gp_clinical_note.md",
+          "evidence": "- Aspirin 75mg + Clopidogrel 75mg \u2014 continuing both. I've prescribed the omeprazole 20mg as"
+        }
+      ]
+    },
+    {
+      "medication": "Atorvastatin 80 mg nocte",
+      "phase": "Current / documented",
+      "status": "Continued",
+      "confidence": "High",
+      "source_text": "- Atorvastatin 80mg nocte \u2014 continuing, no issues.",
+      "source_document": "discharge_summary_unstructured.pdf; gp_clinical_note.md",
+      "history": [
+        {
+          "stage": "On admission",
+          "status": "Active on admission",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "Insulin Glargine (Lantus) 24 units at night. Ramipril 10mg OD. Amlodipine 10mg OD. Atorvastatin 80mg nocte."
+        },
+        {
+          "stage": "At discharge",
+          "status": "Continued",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "Sulphate 200mg BD (with food). CONTINUED: Atorvastatin 80mg, Aspirin 75mg, Clopidogrel 75mg,"
+        },
+        {
+          "stage": "Current / documented",
+          "status": "Continued",
+          "source": "gp_clinical_note.md",
+          "evidence": "- Atorvastatin 80mg nocte \u2014 continuing, no issues."
+        }
+      ]
+    },
+    {
+      "medication": "Bisoprolol 7.5 mg OD",
+      "phase": "Post-discharge review",
+      "status": "Dose changed",
+      "confidence": "High",
+      "source_text": "- Bisoprolol 7.5mg OD \u2014 increased from 5mg. She's managing it. Pulse today 58 \u2014 acceptable.",
+      "source_document": "discharge_summary_unstructured.pdf; gp_clinical_note.md",
+      "history": [
+        {
+          "stage": "On admission",
+          "status": "Not reliably taking before admission",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "Aspirin 75mg OD. Clopidogrel 75mg OD. Bisoprolol 5mg OD (patient unsure if she is still taking this \u2014 'I ran out"
+        },
+        {
+          "stage": "Post-discharge review",
+          "status": "Dose changed",
+          "source": "gp_clinical_note.md",
+          "evidence": "- Bisoprolol 7.5mg OD \u2014 increased from 5mg. She's managing it. Pulse today 58 \u2014 acceptable."
+        }
+      ]
+    },
+    {
+      "medication": "Clopidogrel 75 mg",
+      "phase": "Current / documented",
+      "status": "Continued",
+      "confidence": "High",
+      "source_text": "- Aspirin 75mg + Clopidogrel 75mg \u2014 continuing both. I've prescribed the omeprazole 20mg as",
+      "source_document": "discharge_summary_unstructured.pdf; gp_clinical_note.md",
+      "history": [
+        {
+          "stage": "On admission",
+          "status": "Active on admission",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "Aspirin 75mg OD. Clopidogrel 75mg OD. Bisoprolol 5mg OD (patient unsure if she is still taking this \u2014 'I ran out"
+        },
+        {
+          "stage": "At discharge",
+          "status": "Continued",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "Sulphate 200mg BD (with food). CONTINUED: Atorvastatin 80mg, Aspirin 75mg, Clopidogrel 75mg,"
+        },
+        {
+          "stage": "Current / documented",
+          "status": "Continued",
+          "source": "gp_clinical_note.md",
+          "evidence": "- Aspirin 75mg + Clopidogrel 75mg \u2014 continuing both. I've prescribed the omeprazole 20mg as"
+        }
+      ]
+    },
+    {
+      "medication": "enoxaparin 1 mg/kg BD",
+      "phase": "Current / documented",
+      "status": "Active",
+      "confidence": "High",
+      "source_text": "IV GTN, low molecular weight heparin (enoxaparin 1mg/kg BD \u2014 dose-adjusted for CKD). Cardiology team",
+      "source_document": "discharge_summary_unstructured.pdf",
+      "history": [
+        {
+          "stage": "Current / documented",
+          "status": "Active",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "IV GTN, low molecular weight heparin (enoxaparin 1mg/kg BD \u2014 dose-adjusted for CKD). Cardiology team"
+        }
+      ]
+    },
+    {
+      "medication": "Ferrous Sulphate 200 mg BD",
+      "phase": "Current / documented",
+      "status": "New",
+      "confidence": "High",
+      "source_text": "- Ferrous Sulphate 200mg BD \u2014 new. Tolerating ok with food.",
+      "source_document": "discharge_summary_unstructured.pdf; gp_clinical_note.md",
+      "history": [
+        {
+          "stage": "Current / documented",
+          "status": "New",
+          "source": "discharge_summary_unstructured.pdf; gp_clinical_note.md",
+          "evidence": "suggest iron deficiency (ferritin 11), commenced oral ferrous sulphate 200mg BD. Diabetic team reviewed \u2014"
+        }
+      ]
+    },
+    {
+      "medication": "Furosemide 40 mg OD",
+      "phase": "Current / documented",
+      "status": "New",
+      "confidence": "High",
+      "source_text": "- Furosemide 40mg OD \u2014 new addition. She's noticed she's going to the loo more in the morning.",
+      "source_document": "discharge_summary_unstructured.pdf; gp_clinical_note.md",
+      "history": [
+        {
+          "stage": "Current / documented",
+          "status": "Active",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "uptitrated to 7.5 mg OD. Furosemide 40mg OD added for fluid overload. Anaemia worked up \u2014 iron studies"
+        },
+        {
+          "stage": "At discharge",
+          "status": "New",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "Sacubitril-Valsartan (Entresto) 24/26mg BD \u2014 titrate up at 4 weeks if tolerated. Furosemide 40mg OD. Ferrous"
+        },
+        {
+          "stage": "Current / documented",
+          "status": "New",
+          "source": "gp_clinical_note.md",
+          "evidence": "- Furosemide 40mg OD \u2014 new addition. She's noticed she's going to the loo more in the morning."
+        }
+      ]
+    },
+    {
+      "medication": "Insulin Glargine 28 units nocte",
+      "phase": "Current / documented",
+      "status": "Active",
+      "confidence": "High",
+      "source_text": "- Insulin Glargine 28 units nocte \u2014 increased by diabetic team. Blood sugars she says have been",
+      "source_document": "discharge_summary_unstructured.pdf; gp_clinical_note.md",
+      "history": [
+        {
+          "stage": "On admission",
+          "status": "Active on admission",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "Insulin Glargine (Lantus) 24 units at night. Ramipril 10mg OD. Amlodipine 10mg OD. Atorvastatin 80mg nocte."
+        },
+        {
+          "stage": "Current / documented",
+          "status": "Active",
+          "source": "gp_clinical_note.md",
+          "evidence": "- Insulin Glargine 28 units nocte \u2014 increased by diabetic team. Blood sugars she says have been"
+        }
+      ]
+    },
+    {
+      "medication": "Metformin 500 mg BD",
+      "phase": "On admission",
+      "status": "Not reliably taking before admission",
+      "confidence": "High",
+      "source_text": "Metformin 500mg BD \u2014 NOTE: patient states she stopped this herself 'a few months ago' due to GI upset.",
+      "source_document": "discharge_summary_unstructured.pdf",
+      "history": [
+        {
+          "stage": "On admission",
+          "status": "Not reliably taking before admission",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "Metformin 500mg BD \u2014 NOTE: patient states she stopped this herself 'a few months ago' due to GI upset."
+        }
+      ]
+    },
+    {
+      "medication": "omeprazole 20 mg",
+      "phase": "Current / documented",
+      "status": "Active",
+      "confidence": "High",
+      "source_text": "- Aspirin 75mg + Clopidogrel 75mg \u2014 continuing both. I've prescribed the omeprazole 20mg as",
+      "source_document": "discharge_summary_unstructured.pdf; gp_clinical_note.md",
+      "history": [
+        {
+          "stage": "On admission",
+          "status": "Active on admission",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "last month'). Omeprazole 20mg OD (PRN \u2014 rarely takes it)."
+        },
+        {
+          "stage": "At discharge",
+          "status": "Continued",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "Omeprazole 20mg OD (now regular, not PRN, given dual antiplatelets)."
+        },
+        {
+          "stage": "Current / documented",
+          "status": "Active",
+          "source": "gp_clinical_note.md",
+          "evidence": "- Aspirin 75mg + Clopidogrel 75mg \u2014 continuing both. I've prescribed the omeprazole 20mg as"
+        }
+      ]
+    },
+    {
+      "medication": "Ramipril 10 mg OD",
+      "phase": "Post-discharge review",
+      "status": "Stopped",
+      "confidence": "High",
+      "source_text": "reminded her the ramipril is STOPPED. She had some left in her pill box and had taken",
+      "source_document": "discharge_summary_unstructured.pdf; gp_clinical_note.md",
+      "history": [
+        {
+          "stage": "On admission",
+          "status": "Active on admission",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "Insulin Glargine (Lantus) 24 units at night. Ramipril 10mg OD. Amlodipine 10mg OD. Atorvastatin 80mg nocte."
+        },
+        {
+          "stage": "Current / documented",
+          "status": "Stopped",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "view of reduced EF \u2014 commenced Sacubitril-Valsartan 24/26 mg BD (Entresto) in place of ramipril. Bisoprolol"
+        },
+        {
+          "stage": "At discharge",
+          "status": "Stopped",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "STOPPED: Ramipril (replaced by Entresto). Metformin (withheld \u2014 do not restart until eGFR > 60 and contrast"
+        },
+        {
+          "stage": "Post-discharge review",
+          "status": "Taken in error",
+          "source": "gp_clinical_note.md",
+          "evidence": "reminded her the ramipril is STOPPED. She had some left in her pill box and had taken"
+        }
+      ]
+    },
+    {
+      "medication": "Sacubitril-Valsartan (Entresto) 24/26 mg BD",
+      "phase": "Post-discharge review",
+      "status": "New",
+      "confidence": "High",
+      "source_text": "- Entresto (sacubitril/valsartan 24/26mg BD) \u2014 NEW, she's started it, seems ok so far,",
+      "source_document": "discharge_summary_unstructured.pdf; gp_clinical_note.md",
+      "history": [
+        {
+          "stage": "Current / documented",
+          "status": "New",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "view of reduced EF \u2014 commenced Sacubitril-Valsartan 24/26 mg BD (Entresto) in place of ramipril. Bisoprolol"
+        },
+        {
+          "stage": "At discharge",
+          "status": "New",
+          "source": "discharge_summary_unstructured.pdf",
+          "evidence": "Sacubitril-Valsartan (Entresto) 24/26mg BD \u2014 titrate up at 4 weeks if tolerated. Furosemide 40mg OD. Ferrous"
+        },
+        {
+          "stage": "Post-discharge review",
+          "status": "New",
+          "source": "gp_clinical_note.md",
+          "evidence": "- Entresto (sacubitril/valsartan 24/26mg BD) \u2014 NEW, she's started it, seems ok so far,"
+        }
+      ]
+    }
+  ],
+  "discrepancies": [
+    {
+      "category": "Conflict",
+      "field": "Contrast allergy severity",
+      "document_a": "discharge_summary_unstructured.pdf",
+      "value_a": "Contrast dye | Iodinated contrast allergy",
+      "document_b": "gp_clinical_note.md",
+      "value_b": "Iodinated contrast allergy | rash, mild, resolving spontaneously",
+      "clinical_risk": "High",
+      "action_required": "Verify the original reaction and correct the allergy record before future contrast imaging."
+    },
+    {
+      "category": "Medication safety issue",
+      "field": "Ramipril after Entresto initiation",
+      "document_a": "discharge_summary_unstructured.pdf",
+      "value_a": "ramipril: Stopped",
+      "document_b": "gp_clinical_note.md",
+      "value_b": "ramipril: taken after discharge",
+      "clinical_risk": "High",
+      "action_required": "Confirm ramipril is stopped and the remaining supply is removed."
+    },
+    {
+      "category": "Clinical change",
+      "field": "Kidney disease stage",
+      "document_a": "discharge_summary_unstructured.pdf",
+      "value_a": "Baseline: CKD Stage 2",
+      "document_b": "discharge_summary_unstructured.pdf",
+      "value_b": "More severe/current finding: CKD Stage 3a",
+      "clinical_risk": "Medium",
+      "action_required": "Use the latest renal function for medication dosing and follow-up."
+    }
+  ],
+  "completeness": {
+    "score": 6,
+    "total": 10,
+    "documented_fields": [
+      "Patient identity",
+      "Age or date of birth",
+      "Document dates",
+      "Current conditions",
+      "Symptoms or clinical signs",
+      "Follow-up plan"
+    ],
+    "missing_fields": [
+      "Medication reconciliation",
+      "Allergies and reactions",
+      "Important test results",
+      "Social or cognitive context"
+    ]
+  },
+  "safety_warnings": [
+    "Acute myocardial injury pattern: Escalate to the acute cardiac pathway",
+    "Potential ACE inhibitor and Entresto interaction: Escalate for same-day medication safety review and confirm ramipril is stopped",
+    "Potentially unstable heart failure: Arrange early heart failure follow-up",
+    "Poor glycaemic control: Route to the diabetes nurse specialist within 7 days",
+    "Incorrect allergy severity may be recorded: Verify the original contrast reaction and correct the allergy record"
+  ],
+  "record_timeline": [
+    {
+      "sequence": 1,
+      "source_order": 2,
+      "document_id": "lab_report_unstructured.txt",
+      "document_name": "lab_report_unstructured.txt",
+      "document_type": "Lab Report",
+      "document_date": "2024-06-10",
+      "follow_up_date": null,
+      "conditions": [
+        "CKD",
+        "NSTEMI",
+        "heart failure"
+      ],
+      "key_findings": [
+        "Haemoglobin: 10.9 g/dL",
+        "Creatinine: 118 umol/L",
+        "eGFR (CKD-EPI): 52 mL/min/1.73m2",
+        "Troponin I (hsTnI) @ 02:55: 142 ng/L"
+      ],
+      "priority": "High",
+      "next_action": "Escalate to the acute cardiac pathway Also: Arrange early heart failure follow-up."
+    },
+    {
+      "sequence": 2,
+      "source_order": 1,
+      "document_id": "discharge_summary_unstructured.pdf",
+      "document_name": "discharge_summary_unstructured.pdf",
+      "document_type": "Discharge Summary",
+      "document_date": "2024-06-14",
+      "follow_up_date": null,
+      "conditions": [
+        "type 2 diabetes mellitus",
+        "hypertension",
+        "ischaemic heart disease"
+      ],
+      "key_findings": [
+        "eGFR 68",
+        "BNP: 810 pg/mL",
+        "Creatinine 118 umol/L",
+        "eGFR 52"
+      ],
+      "priority": "High",
+      "next_action": "Escalate to the acute cardiac pathway Also: Arrange early heart failure follow-up Also: Route to the diabetes nurse specialist within 7 days."
+    },
+    {
+      "sequence": 3,
+      "source_order": 3,
+      "document_id": "gp_clinical_note.md",
+      "document_name": "gp_clinical_note.md",
+      "document_type": "GP Consultation Note",
+      "document_date": "2024-06-17",
+      "follow_up_date": null,
+      "conditions": [
+        "CKD",
+        "post-MI",
+        "HF"
+      ],
+      "key_findings": [
+        "BP: 118/72",
+        "O2 sats: 96%",
+        "breathless",
+        "Ankles still slightly puffy"
+      ],
+      "priority": "High",
+      "next_action": "Escalate for same-day medication safety review and confirm ramipril is stopped Also: Verify the original contrast reaction and correct the allergy record."
+    }
+  ],
+  "conflicts": []
+}

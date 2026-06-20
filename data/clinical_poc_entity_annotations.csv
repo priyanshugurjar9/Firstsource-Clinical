@@ -1,0 +1,1477 @@
+doc_id,entity_text,entity_label,start_char,end_char
+CLIN-0001,Type 2 diabetes mellitus,DIAGNOSIS,179,203
+CLIN-0001,fatigue,SYMPTOM,106,113
+CLIN-0001,polyuria,SYMPTOM,115,123
+CLIN-0001,blurred vision,SYMPTOM,125,139
+CLIN-0001,Metformin 1000 mg twice daily,MEDICATION,230,259
+CLIN-0001,Insulin glargine 18 units nightly,MEDICATION,261,294
+CLIN-0001,No known drug allergies,ALLERGY,312,335
+CLIN-0001,HbA1c 9.4%,LAB_RESULT,355,365
+CLIN-0001,fasting glucose 198 mg/dL,LAB_RESULT,367,392
+CLIN-0001,HbA1c above target,RED_FLAG,475,493
+CLIN-0001,persistent hyperglycaemia,RED_FLAG,495,520
+CLIN-0002,Type 2 diabetes mellitus,DIAGNOSIS,78,102
+CLIN-0002,fatigue,SYMPTOM,133,140
+CLIN-0002,polyuria,SYMPTOM,142,150
+CLIN-0002,blurred vision,SYMPTOM,152,166
+CLIN-0002,Metformin 1000 mg twice daily,MEDICATION,196,225
+CLIN-0002,Insulin glargine 18 units nightly,MEDICATION,227,260
+CLIN-0002,No known drug allergies,ALLERGY,273,296
+CLIN-0002,HbA1c 9.4%,LAB_RESULT,322,332
+CLIN-0002,fasting glucose 198 mg/dL,LAB_RESULT,334,359
+CLIN-0002,HbA1c above target,RED_FLAG,379,397
+CLIN-0002,persistent hyperglycaemia,RED_FLAG,399,424
+CLIN-0003,Type 2 diabetes mellitus,DIAGNOSIS,105,129
+CLIN-0003,fatigue,SYMPTOM,152,159
+CLIN-0003,polyuria,SYMPTOM,161,169
+CLIN-0003,blurred vision,SYMPTOM,171,185
+CLIN-0003,Metformin 1000 mg twice daily,MEDICATION,209,238
+CLIN-0003,Insulin glargine 18 units nightly,MEDICATION,240,273
+CLIN-0003,No known drug allergies,ALLERGY,297,320
+CLIN-0003,HbA1c 9.4%,LAB_RESULT,351,361
+CLIN-0003,fasting glucose 198 mg/dL,LAB_RESULT,363,388
+CLIN-0003,HbA1c above target,RED_FLAG,407,425
+CLIN-0003,persistent hyperglycaemia,RED_FLAG,427,452
+CLIN-0004,Type 2 diabetes mellitus,DIAGNOSIS,177,201
+CLIN-0004,fatigue,SYMPTOM,104,111
+CLIN-0004,polyuria,SYMPTOM,113,121
+CLIN-0004,blurred vision,SYMPTOM,123,137
+CLIN-0004,Metformin 1000 mg twice daily,MEDICATION,228,257
+CLIN-0004,Insulin glargine 18 units nightly,MEDICATION,259,292
+CLIN-0004,No known drug allergies,ALLERGY,310,333
+CLIN-0004,HbA1c 9.4%,LAB_RESULT,353,363
+CLIN-0004,fasting glucose 198 mg/dL,LAB_RESULT,365,390
+CLIN-0004,HbA1c above target,RED_FLAG,473,491
+CLIN-0004,persistent hyperglycaemia,RED_FLAG,493,518
+CLIN-0005,Type 2 diabetes mellitus,DIAGNOSIS,76,100
+CLIN-0005,fatigue,SYMPTOM,131,138
+CLIN-0005,polyuria,SYMPTOM,140,148
+CLIN-0005,blurred vision,SYMPTOM,150,164
+CLIN-0005,Metformin 1000 mg twice daily,MEDICATION,194,223
+CLIN-0005,Insulin glargine 18 units nightly,MEDICATION,225,258
+CLIN-0005,No known drug allergies,ALLERGY,271,294
+CLIN-0005,HbA1c 9.4%,LAB_RESULT,320,330
+CLIN-0005,fasting glucose 198 mg/dL,LAB_RESULT,332,357
+CLIN-0005,HbA1c above target,RED_FLAG,377,395
+CLIN-0005,persistent hyperglycaemia,RED_FLAG,397,422
+CLIN-0006,Type 2 diabetes mellitus,DIAGNOSIS,108,132
+CLIN-0006,fatigue,SYMPTOM,155,162
+CLIN-0006,polyuria,SYMPTOM,164,172
+CLIN-0006,blurred vision,SYMPTOM,174,188
+CLIN-0006,Metformin 1000 mg twice daily,MEDICATION,212,241
+CLIN-0006,Insulin glargine 18 units nightly,MEDICATION,243,276
+CLIN-0006,No known drug allergies,ALLERGY,300,323
+CLIN-0006,HbA1c 9.4%,LAB_RESULT,354,364
+CLIN-0006,fasting glucose 198 mg/dL,LAB_RESULT,366,391
+CLIN-0006,HbA1c above target,RED_FLAG,410,428
+CLIN-0006,persistent hyperglycaemia,RED_FLAG,430,455
+CLIN-0007,Type 2 diabetes mellitus,DIAGNOSIS,180,204
+CLIN-0007,fatigue,SYMPTOM,107,114
+CLIN-0007,polyuria,SYMPTOM,116,124
+CLIN-0007,blurred vision,SYMPTOM,126,140
+CLIN-0007,Metformin 1000 mg twice daily,MEDICATION,231,260
+CLIN-0007,Insulin glargine 18 units nightly,MEDICATION,262,295
+CLIN-0007,No known drug allergies,ALLERGY,313,336
+CLIN-0007,HbA1c 9.4%,LAB_RESULT,356,366
+CLIN-0007,fasting glucose 198 mg/dL,LAB_RESULT,368,393
+CLIN-0007,HbA1c above target,RED_FLAG,476,494
+CLIN-0007,persistent hyperglycaemia,RED_FLAG,496,521
+CLIN-0008,Type 2 diabetes mellitus,DIAGNOSIS,75,99
+CLIN-0008,fatigue,SYMPTOM,130,137
+CLIN-0008,polyuria,SYMPTOM,139,147
+CLIN-0008,blurred vision,SYMPTOM,149,163
+CLIN-0008,Metformin 1000 mg twice daily,MEDICATION,193,222
+CLIN-0008,Insulin glargine 18 units nightly,MEDICATION,224,257
+CLIN-0008,No known drug allergies,ALLERGY,270,293
+CLIN-0008,HbA1c 9.4%,LAB_RESULT,319,329
+CLIN-0008,fasting glucose 198 mg/dL,LAB_RESULT,331,356
+CLIN-0008,HbA1c above target,RED_FLAG,376,394
+CLIN-0008,persistent hyperglycaemia,RED_FLAG,396,421
+CLIN-0009,Type 2 diabetes mellitus,DIAGNOSIS,103,127
+CLIN-0009,fatigue,SYMPTOM,150,157
+CLIN-0009,polyuria,SYMPTOM,159,167
+CLIN-0009,blurred vision,SYMPTOM,169,183
+CLIN-0009,Metformin 1000 mg twice daily,MEDICATION,207,236
+CLIN-0009,Insulin glargine 18 units nightly,MEDICATION,238,271
+CLIN-0009,No known drug allergies,ALLERGY,295,318
+CLIN-0009,HbA1c 9.4%,LAB_RESULT,349,359
+CLIN-0009,fasting glucose 198 mg/dL,LAB_RESULT,361,386
+CLIN-0009,HbA1c above target,RED_FLAG,405,423
+CLIN-0009,persistent hyperglycaemia,RED_FLAG,425,450
+CLIN-0010,Type 2 diabetes mellitus,DIAGNOSIS,177,201
+CLIN-0010,fatigue,SYMPTOM,104,111
+CLIN-0010,polyuria,SYMPTOM,113,121
+CLIN-0010,blurred vision,SYMPTOM,123,137
+CLIN-0010,Metformin 1000 mg twice daily,MEDICATION,228,257
+CLIN-0010,Insulin glargine 18 units nightly,MEDICATION,259,292
+CLIN-0010,No known drug allergies,ALLERGY,310,333
+CLIN-0010,HbA1c 9.4%,LAB_RESULT,353,363
+CLIN-0010,fasting glucose 198 mg/dL,LAB_RESULT,365,390
+CLIN-0010,HbA1c above target,RED_FLAG,473,491
+CLIN-0010,persistent hyperglycaemia,RED_FLAG,493,518
+CLIN-0011,Type 2 diabetes mellitus,DIAGNOSIS,75,99
+CLIN-0011,fatigue,SYMPTOM,130,137
+CLIN-0011,polyuria,SYMPTOM,139,147
+CLIN-0011,blurred vision,SYMPTOM,149,163
+CLIN-0011,Metformin 1000 mg twice daily,MEDICATION,193,222
+CLIN-0011,Insulin glargine 18 units nightly,MEDICATION,224,257
+CLIN-0011,No known drug allergies,ALLERGY,270,293
+CLIN-0011,HbA1c 9.4%,LAB_RESULT,319,329
+CLIN-0011,fasting glucose 198 mg/dL,LAB_RESULT,331,356
+CLIN-0011,HbA1c above target,RED_FLAG,376,394
+CLIN-0011,persistent hyperglycaemia,RED_FLAG,396,421
+CLIN-0012,Type 2 diabetes mellitus,DIAGNOSIS,105,129
+CLIN-0012,fatigue,SYMPTOM,152,159
+CLIN-0012,polyuria,SYMPTOM,161,169
+CLIN-0012,blurred vision,SYMPTOM,171,185
+CLIN-0012,Metformin 1000 mg twice daily,MEDICATION,209,238
+CLIN-0012,Insulin glargine 18 units nightly,MEDICATION,240,273
+CLIN-0012,No known drug allergies,ALLERGY,297,320
+CLIN-0012,HbA1c 9.4%,LAB_RESULT,351,361
+CLIN-0012,fasting glucose 198 mg/dL,LAB_RESULT,363,388
+CLIN-0012,HbA1c above target,RED_FLAG,407,425
+CLIN-0012,persistent hyperglycaemia,RED_FLAG,427,452
+CLIN-0013,Possible acute coronary syndrome,DIAGNOSIS,87,119
+CLIN-0013,central chest pain,SYMPTOM,150,168
+CLIN-0013,shortness of breath,SYMPTOM,170,189
+CLIN-0013,diaphoresis,SYMPTOM,191,202
+CLIN-0013,Aspirin 300 mg given,MEDICATION,232,252
+CLIN-0013,Nitroglycerin spray as needed,MEDICATION,254,283
+CLIN-0013,Penicillin allergy,ALLERGY,296,314
+CLIN-0013,Troponin pending,LAB_RESULT,340,356
+CLIN-0013,ECG shows ST depression in lateral leads,LAB_RESULT,358,398
+CLIN-0013,chest pain,RED_FLAG,158,168
+CLIN-0013,ECG abnormality,RED_FLAG,430,445
+CLIN-0013,troponin pending,RED_FLAG,447,463
+CLIN-0014,Possible acute coronary syndrome,DIAGNOSIS,115,147
+CLIN-0014,central chest pain,SYMPTOM,170,188
+CLIN-0014,shortness of breath,SYMPTOM,190,209
+CLIN-0014,diaphoresis,SYMPTOM,211,222
+CLIN-0014,Aspirin 300 mg given,MEDICATION,246,266
+CLIN-0014,Nitroglycerin spray as needed,MEDICATION,268,297
+CLIN-0014,Penicillin allergy,ALLERGY,321,339
+CLIN-0014,Troponin pending,LAB_RESULT,370,386
+CLIN-0014,ECG shows ST depression in lateral leads,LAB_RESULT,388,428
+CLIN-0014,chest pain,RED_FLAG,178,188
+CLIN-0014,ECG abnormality,RED_FLAG,459,474
+CLIN-0014,troponin pending,RED_FLAG,476,492
+CLIN-0015,Possible acute coronary syndrome,DIAGNOSIS,203,235
+CLIN-0015,central chest pain,SYMPTOM,111,129
+CLIN-0015,shortness of breath,SYMPTOM,131,150
+CLIN-0015,diaphoresis,SYMPTOM,152,163
+CLIN-0015,Aspirin 300 mg given,MEDICATION,262,282
+CLIN-0015,Nitroglycerin spray as needed,MEDICATION,284,313
+CLIN-0015,Penicillin allergy,ALLERGY,331,349
+CLIN-0015,Troponin pending,LAB_RESULT,369,385
+CLIN-0015,ECG shows ST depression in lateral leads,LAB_RESULT,387,427
+CLIN-0015,chest pain,RED_FLAG,119,129
+CLIN-0015,ECG abnormality,RED_FLAG,522,537
+CLIN-0015,troponin pending,RED_FLAG,539,555
+CLIN-0016,Possible acute coronary syndrome,DIAGNOSIS,85,117
+CLIN-0016,central chest pain,SYMPTOM,148,166
+CLIN-0016,shortness of breath,SYMPTOM,168,187
+CLIN-0016,diaphoresis,SYMPTOM,189,200
+CLIN-0016,Aspirin 300 mg given,MEDICATION,230,250
+CLIN-0016,Nitroglycerin spray as needed,MEDICATION,252,281
+CLIN-0016,Penicillin allergy,ALLERGY,294,312
+CLIN-0016,Troponin pending,LAB_RESULT,338,354
+CLIN-0016,ECG shows ST depression in lateral leads,LAB_RESULT,356,396
+CLIN-0016,chest pain,RED_FLAG,156,166
+CLIN-0016,ECG abnormality,RED_FLAG,428,443
+CLIN-0016,troponin pending,RED_FLAG,445,461
+CLIN-0017,Possible acute coronary syndrome,DIAGNOSIS,113,145
+CLIN-0017,central chest pain,SYMPTOM,168,186
+CLIN-0017,shortness of breath,SYMPTOM,188,207
+CLIN-0017,diaphoresis,SYMPTOM,209,220
+CLIN-0017,Aspirin 300 mg given,MEDICATION,244,264
+CLIN-0017,Nitroglycerin spray as needed,MEDICATION,266,295
+CLIN-0017,Penicillin allergy,ALLERGY,319,337
+CLIN-0017,Troponin pending,LAB_RESULT,368,384
+CLIN-0017,ECG shows ST depression in lateral leads,LAB_RESULT,386,426
+CLIN-0017,chest pain,RED_FLAG,176,186
+CLIN-0017,ECG abnormality,RED_FLAG,457,472
+CLIN-0017,troponin pending,RED_FLAG,474,490
+CLIN-0018,Possible acute coronary syndrome,DIAGNOSIS,206,238
+CLIN-0018,central chest pain,SYMPTOM,114,132
+CLIN-0018,shortness of breath,SYMPTOM,134,153
+CLIN-0018,diaphoresis,SYMPTOM,155,166
+CLIN-0018,Aspirin 300 mg given,MEDICATION,265,285
+CLIN-0018,Nitroglycerin spray as needed,MEDICATION,287,316
+CLIN-0018,Penicillin allergy,ALLERGY,334,352
+CLIN-0018,Troponin pending,LAB_RESULT,372,388
+CLIN-0018,ECG shows ST depression in lateral leads,LAB_RESULT,390,430
+CLIN-0018,chest pain,RED_FLAG,122,132
+CLIN-0018,ECG abnormality,RED_FLAG,525,540
+CLIN-0018,troponin pending,RED_FLAG,542,558
+CLIN-0019,Possible acute coronary syndrome,DIAGNOSIS,88,120
+CLIN-0019,central chest pain,SYMPTOM,151,169
+CLIN-0019,shortness of breath,SYMPTOM,171,190
+CLIN-0019,diaphoresis,SYMPTOM,192,203
+CLIN-0019,Aspirin 300 mg given,MEDICATION,233,253
+CLIN-0019,Nitroglycerin spray as needed,MEDICATION,255,284
+CLIN-0019,Penicillin allergy,ALLERGY,297,315
+CLIN-0019,Troponin pending,LAB_RESULT,341,357
+CLIN-0019,ECG shows ST depression in lateral leads,LAB_RESULT,359,399
+CLIN-0019,chest pain,RED_FLAG,159,169
+CLIN-0019,ECG abnormality,RED_FLAG,431,446
+CLIN-0019,troponin pending,RED_FLAG,448,464
+CLIN-0020,Possible acute coronary syndrome,DIAGNOSIS,112,144
+CLIN-0020,central chest pain,SYMPTOM,167,185
+CLIN-0020,shortness of breath,SYMPTOM,187,206
+CLIN-0020,diaphoresis,SYMPTOM,208,219
+CLIN-0020,Aspirin 300 mg given,MEDICATION,243,263
+CLIN-0020,Nitroglycerin spray as needed,MEDICATION,265,294
+CLIN-0020,Penicillin allergy,ALLERGY,318,336
+CLIN-0020,Troponin pending,LAB_RESULT,367,383
+CLIN-0020,ECG shows ST depression in lateral leads,LAB_RESULT,385,425
+CLIN-0020,chest pain,RED_FLAG,175,185
+CLIN-0020,ECG abnormality,RED_FLAG,456,471
+CLIN-0020,troponin pending,RED_FLAG,473,489
+CLIN-0021,Possible acute coronary syndrome,DIAGNOSIS,201,233
+CLIN-0021,central chest pain,SYMPTOM,109,127
+CLIN-0021,shortness of breath,SYMPTOM,129,148
+CLIN-0021,diaphoresis,SYMPTOM,150,161
+CLIN-0021,Aspirin 300 mg given,MEDICATION,260,280
+CLIN-0021,Nitroglycerin spray as needed,MEDICATION,282,311
+CLIN-0021,Penicillin allergy,ALLERGY,329,347
+CLIN-0021,Troponin pending,LAB_RESULT,367,383
+CLIN-0021,ECG shows ST depression in lateral leads,LAB_RESULT,385,425
+CLIN-0021,chest pain,RED_FLAG,117,127
+CLIN-0021,ECG abnormality,RED_FLAG,520,535
+CLIN-0021,troponin pending,RED_FLAG,537,553
+CLIN-0022,Possible acute coronary syndrome,DIAGNOSIS,85,117
+CLIN-0022,central chest pain,SYMPTOM,148,166
+CLIN-0022,shortness of breath,SYMPTOM,168,187
+CLIN-0022,diaphoresis,SYMPTOM,189,200
+CLIN-0022,Aspirin 300 mg given,MEDICATION,230,250
+CLIN-0022,Nitroglycerin spray as needed,MEDICATION,252,281
+CLIN-0022,Penicillin allergy,ALLERGY,294,312
+CLIN-0022,Troponin pending,LAB_RESULT,338,354
+CLIN-0022,ECG shows ST depression in lateral leads,LAB_RESULT,356,396
+CLIN-0022,chest pain,RED_FLAG,156,166
+CLIN-0022,ECG abnormality,RED_FLAG,428,443
+CLIN-0022,troponin pending,RED_FLAG,445,461
+CLIN-0023,Possible acute coronary syndrome,DIAGNOSIS,112,144
+CLIN-0023,central chest pain,SYMPTOM,167,185
+CLIN-0023,shortness of breath,SYMPTOM,187,206
+CLIN-0023,diaphoresis,SYMPTOM,208,219
+CLIN-0023,Aspirin 300 mg given,MEDICATION,243,263
+CLIN-0023,Nitroglycerin spray as needed,MEDICATION,265,294
+CLIN-0023,Penicillin allergy,ALLERGY,318,336
+CLIN-0023,Troponin pending,LAB_RESULT,367,383
+CLIN-0023,ECG shows ST depression in lateral leads,LAB_RESULT,385,425
+CLIN-0023,chest pain,RED_FLAG,175,185
+CLIN-0023,ECG abnormality,RED_FLAG,456,471
+CLIN-0023,troponin pending,RED_FLAG,473,489
+CLIN-0024,Possible acute coronary syndrome,DIAGNOSIS,203,235
+CLIN-0024,central chest pain,SYMPTOM,111,129
+CLIN-0024,shortness of breath,SYMPTOM,131,150
+CLIN-0024,diaphoresis,SYMPTOM,152,163
+CLIN-0024,Aspirin 300 mg given,MEDICATION,262,282
+CLIN-0024,Nitroglycerin spray as needed,MEDICATION,284,313
+CLIN-0024,Penicillin allergy,ALLERGY,331,349
+CLIN-0024,Troponin pending,LAB_RESULT,369,385
+CLIN-0024,ECG shows ST depression in lateral leads,LAB_RESULT,387,427
+CLIN-0024,chest pain,RED_FLAG,119,129
+CLIN-0024,ECG abnormality,RED_FLAG,522,537
+CLIN-0024,troponin pending,RED_FLAG,539,555
+CLIN-0025,Chronic obstructive pulmonary disease,DIAGNOSIS,106,143
+CLIN-0025,worsening breathlessness,SYMPTOM,166,190
+CLIN-0025,productive cough,SYMPTOM,192,208
+CLIN-0025,reduced exercise tolerance,SYMPTOM,210,236
+CLIN-0025,Salbutamol inhaler,MEDICATION,260,278
+CLIN-0025,Tiotropium inhaler,MEDICATION,280,298
+CLIN-0025,No known drug allergies,ALLERGY,322,345
+CLIN-0025,Oxygen saturation 91% on room air,LAB_RESULT,376,409
+CLIN-0025,Chest X-ray requested,LAB_RESULT,411,432
+CLIN-0025,oxygen saturation below expected baseline,RED_FLAG,451,492
+CLIN-0025,worsening breathlessness,RED_FLAG,166,190
+CLIN-0026,Chronic obstructive pulmonary disease,DIAGNOSIS,213,250
+CLIN-0026,worsening breathlessness,SYMPTOM,103,127
+CLIN-0026,productive cough,SYMPTOM,129,145
+CLIN-0026,reduced exercise tolerance,SYMPTOM,147,173
+CLIN-0026,Salbutamol inhaler,MEDICATION,277,295
+CLIN-0026,Tiotropium inhaler,MEDICATION,297,315
+CLIN-0026,No known drug allergies,ALLERGY,333,356
+CLIN-0026,Oxygen saturation 91% on room air,LAB_RESULT,376,409
+CLIN-0026,Chest X-ray requested,LAB_RESULT,411,432
+CLIN-0026,oxygen saturation below expected baseline,RED_FLAG,515,556
+CLIN-0026,worsening breathlessness,RED_FLAG,103,127
+CLIN-0027,Chronic obstructive pulmonary disease,DIAGNOSIS,74,111
+CLIN-0027,worsening breathlessness,SYMPTOM,142,166
+CLIN-0027,productive cough,SYMPTOM,168,184
+CLIN-0027,reduced exercise tolerance,SYMPTOM,186,212
+CLIN-0027,Salbutamol inhaler,MEDICATION,242,260
+CLIN-0027,Tiotropium inhaler,MEDICATION,262,280
+CLIN-0027,No known drug allergies,ALLERGY,293,316
+CLIN-0027,Oxygen saturation 91% on room air,LAB_RESULT,342,375
+CLIN-0027,Chest X-ray requested,LAB_RESULT,377,398
+CLIN-0027,oxygen saturation below expected baseline,RED_FLAG,418,459
+CLIN-0027,worsening breathlessness,RED_FLAG,142,166
+CLIN-0028,Chronic obstructive pulmonary disease,DIAGNOSIS,104,141
+CLIN-0028,worsening breathlessness,SYMPTOM,164,188
+CLIN-0028,productive cough,SYMPTOM,190,206
+CLIN-0028,reduced exercise tolerance,SYMPTOM,208,234
+CLIN-0028,Salbutamol inhaler,MEDICATION,258,276
+CLIN-0028,Tiotropium inhaler,MEDICATION,278,296
+CLIN-0028,No known drug allergies,ALLERGY,320,343
+CLIN-0028,Oxygen saturation 91% on room air,LAB_RESULT,374,407
+CLIN-0028,Chest X-ray requested,LAB_RESULT,409,430
+CLIN-0028,oxygen saturation below expected baseline,RED_FLAG,449,490
+CLIN-0028,worsening breathlessness,RED_FLAG,164,188
+CLIN-0029,Chronic obstructive pulmonary disease,DIAGNOSIS,211,248
+CLIN-0029,worsening breathlessness,SYMPTOM,101,125
+CLIN-0029,productive cough,SYMPTOM,127,143
+CLIN-0029,reduced exercise tolerance,SYMPTOM,145,171
+CLIN-0029,Salbutamol inhaler,MEDICATION,275,293
+CLIN-0029,Tiotropium inhaler,MEDICATION,295,313
+CLIN-0029,No known drug allergies,ALLERGY,331,354
+CLIN-0029,Oxygen saturation 91% on room air,LAB_RESULT,374,407
+CLIN-0029,Chest X-ray requested,LAB_RESULT,409,430
+CLIN-0029,oxygen saturation below expected baseline,RED_FLAG,513,554
+CLIN-0029,worsening breathlessness,RED_FLAG,101,125
+CLIN-0030,Chronic obstructive pulmonary disease,DIAGNOSIS,77,114
+CLIN-0030,worsening breathlessness,SYMPTOM,145,169
+CLIN-0030,productive cough,SYMPTOM,171,187
+CLIN-0030,reduced exercise tolerance,SYMPTOM,189,215
+CLIN-0030,Salbutamol inhaler,MEDICATION,245,263
+CLIN-0030,Tiotropium inhaler,MEDICATION,265,283
+CLIN-0030,No known drug allergies,ALLERGY,296,319
+CLIN-0030,Oxygen saturation 91% on room air,LAB_RESULT,345,378
+CLIN-0030,Chest X-ray requested,LAB_RESULT,380,401
+CLIN-0030,oxygen saturation below expected baseline,RED_FLAG,421,462
+CLIN-0030,worsening breathlessness,RED_FLAG,145,169
+CLIN-0031,Chronic obstructive pulmonary disease,DIAGNOSIS,107,144
+CLIN-0031,worsening breathlessness,SYMPTOM,167,191
+CLIN-0031,productive cough,SYMPTOM,193,209
+CLIN-0031,reduced exercise tolerance,SYMPTOM,211,237
+CLIN-0031,Salbutamol inhaler,MEDICATION,261,279
+CLIN-0031,Tiotropium inhaler,MEDICATION,281,299
+CLIN-0031,No known drug allergies,ALLERGY,323,346
+CLIN-0031,Oxygen saturation 91% on room air,LAB_RESULT,377,410
+CLIN-0031,Chest X-ray requested,LAB_RESULT,412,433
+CLIN-0031,oxygen saturation below expected baseline,RED_FLAG,452,493
+CLIN-0031,worsening breathlessness,RED_FLAG,167,191
+CLIN-0032,Chronic obstructive pulmonary disease,DIAGNOSIS,210,247
+CLIN-0032,worsening breathlessness,SYMPTOM,100,124
+CLIN-0032,productive cough,SYMPTOM,126,142
+CLIN-0032,reduced exercise tolerance,SYMPTOM,144,170
+CLIN-0032,Salbutamol inhaler,MEDICATION,274,292
+CLIN-0032,Tiotropium inhaler,MEDICATION,294,312
+CLIN-0032,No known drug allergies,ALLERGY,330,353
+CLIN-0032,Oxygen saturation 91% on room air,LAB_RESULT,373,406
+CLIN-0032,Chest X-ray requested,LAB_RESULT,408,429
+CLIN-0032,oxygen saturation below expected baseline,RED_FLAG,512,553
+CLIN-0032,worsening breathlessness,RED_FLAG,100,124
+CLIN-0033,Chronic obstructive pulmonary disease,DIAGNOSIS,72,109
+CLIN-0033,worsening breathlessness,SYMPTOM,140,164
+CLIN-0033,productive cough,SYMPTOM,166,182
+CLIN-0033,reduced exercise tolerance,SYMPTOM,184,210
+CLIN-0033,Salbutamol inhaler,MEDICATION,240,258
+CLIN-0033,Tiotropium inhaler,MEDICATION,260,278
+CLIN-0033,No known drug allergies,ALLERGY,291,314
+CLIN-0033,Oxygen saturation 91% on room air,LAB_RESULT,340,373
+CLIN-0033,Chest X-ray requested,LAB_RESULT,375,396
+CLIN-0033,oxygen saturation below expected baseline,RED_FLAG,416,457
+CLIN-0033,worsening breathlessness,RED_FLAG,140,164
+CLIN-0034,Chronic obstructive pulmonary disease,DIAGNOSIS,104,141
+CLIN-0034,worsening breathlessness,SYMPTOM,164,188
+CLIN-0034,productive cough,SYMPTOM,190,206
+CLIN-0034,reduced exercise tolerance,SYMPTOM,208,234
+CLIN-0034,Salbutamol inhaler,MEDICATION,258,276
+CLIN-0034,Tiotropium inhaler,MEDICATION,278,296
+CLIN-0034,No known drug allergies,ALLERGY,320,343
+CLIN-0034,Oxygen saturation 91% on room air,LAB_RESULT,374,407
+CLIN-0034,Chest X-ray requested,LAB_RESULT,409,430
+CLIN-0034,oxygen saturation below expected baseline,RED_FLAG,449,490
+CLIN-0034,worsening breathlessness,RED_FLAG,164,188
+CLIN-0035,Chronic obstructive pulmonary disease,DIAGNOSIS,210,247
+CLIN-0035,worsening breathlessness,SYMPTOM,100,124
+CLIN-0035,productive cough,SYMPTOM,126,142
+CLIN-0035,reduced exercise tolerance,SYMPTOM,144,170
+CLIN-0035,Salbutamol inhaler,MEDICATION,274,292
+CLIN-0035,Tiotropium inhaler,MEDICATION,294,312
+CLIN-0035,No known drug allergies,ALLERGY,330,353
+CLIN-0035,Oxygen saturation 91% on room air,LAB_RESULT,373,406
+CLIN-0035,Chest X-ray requested,LAB_RESULT,408,429
+CLIN-0035,oxygen saturation below expected baseline,RED_FLAG,512,553
+CLIN-0035,worsening breathlessness,RED_FLAG,100,124
+CLIN-0036,Chronic obstructive pulmonary disease,DIAGNOSIS,74,111
+CLIN-0036,worsening breathlessness,SYMPTOM,142,166
+CLIN-0036,productive cough,SYMPTOM,168,184
+CLIN-0036,reduced exercise tolerance,SYMPTOM,186,212
+CLIN-0036,Salbutamol inhaler,MEDICATION,242,260
+CLIN-0036,Tiotropium inhaler,MEDICATION,262,280
+CLIN-0036,No known drug allergies,ALLERGY,293,316
+CLIN-0036,Oxygen saturation 91% on room air,LAB_RESULT,342,375
+CLIN-0036,Chest X-ray requested,LAB_RESULT,377,398
+CLIN-0036,oxygen saturation below expected baseline,RED_FLAG,418,459
+CLIN-0036,worsening breathlessness,RED_FLAG,142,166
+CLIN-0037,Chronic kidney disease,DIAGNOSIS,162,184
+CLIN-0037,ankle swelling,SYMPTOM,99,113
+CLIN-0037,fatigue,SYMPTOM,115,122
+CLIN-0037,Ramipril 5 mg daily,MEDICATION,211,230
+CLIN-0037,Furosemide 40 mg daily,MEDICATION,232,254
+CLIN-0037,Ibuprofen intolerance,ALLERGY,272,293
+CLIN-0037,eGFR 28 mL/min/1.73m2,LAB_RESULT,313,334
+CLIN-0037,Creatinine 215 umol/L,LAB_RESULT,336,357
+CLIN-0037,Potassium 5.7 mmol/L,LAB_RESULT,359,379
+CLIN-0037,hyperkalaemia,RED_FLAG,462,475
+CLIN-0037,low eGFR,RED_FLAG,477,485
+CLIN-0038,Chronic kidney disease,DIAGNOSIS,71,93
+CLIN-0038,ankle swelling,SYMPTOM,124,138
+CLIN-0038,fatigue,SYMPTOM,140,147
+CLIN-0038,Ramipril 5 mg daily,MEDICATION,177,196
+CLIN-0038,Furosemide 40 mg daily,MEDICATION,198,220
+CLIN-0038,Ibuprofen intolerance,ALLERGY,233,254
+CLIN-0038,eGFR 28 mL/min/1.73m2,LAB_RESULT,280,301
+CLIN-0038,Creatinine 215 umol/L,LAB_RESULT,303,324
+CLIN-0038,Potassium 5.7 mmol/L,LAB_RESULT,326,346
+CLIN-0038,hyperkalaemia,RED_FLAG,366,379
+CLIN-0038,low eGFR,RED_FLAG,381,389
+CLIN-0039,Chronic kidney disease,DIAGNOSIS,98,120
+CLIN-0039,ankle swelling,SYMPTOM,143,157
+CLIN-0039,fatigue,SYMPTOM,159,166
+CLIN-0039,Ramipril 5 mg daily,MEDICATION,190,209
+CLIN-0039,Furosemide 40 mg daily,MEDICATION,211,233
+CLIN-0039,Ibuprofen intolerance,ALLERGY,257,278
+CLIN-0039,eGFR 28 mL/min/1.73m2,LAB_RESULT,309,330
+CLIN-0039,Creatinine 215 umol/L,LAB_RESULT,332,353
+CLIN-0039,Potassium 5.7 mmol/L,LAB_RESULT,355,375
+CLIN-0039,hyperkalaemia,RED_FLAG,394,407
+CLIN-0039,low eGFR,RED_FLAG,409,417
+CLIN-0040,Chronic kidney disease,DIAGNOSIS,160,182
+CLIN-0040,ankle swelling,SYMPTOM,97,111
+CLIN-0040,fatigue,SYMPTOM,113,120
+CLIN-0040,Ramipril 5 mg daily,MEDICATION,209,228
+CLIN-0040,Furosemide 40 mg daily,MEDICATION,230,252
+CLIN-0040,Ibuprofen intolerance,ALLERGY,270,291
+CLIN-0040,eGFR 28 mL/min/1.73m2,LAB_RESULT,311,332
+CLIN-0040,Creatinine 215 umol/L,LAB_RESULT,334,355
+CLIN-0040,Potassium 5.7 mmol/L,LAB_RESULT,357,377
+CLIN-0040,hyperkalaemia,RED_FLAG,460,473
+CLIN-0040,low eGFR,RED_FLAG,475,483
+CLIN-0041,Chronic kidney disease,DIAGNOSIS,69,91
+CLIN-0041,ankle swelling,SYMPTOM,122,136
+CLIN-0041,fatigue,SYMPTOM,138,145
+CLIN-0041,Ramipril 5 mg daily,MEDICATION,175,194
+CLIN-0041,Furosemide 40 mg daily,MEDICATION,196,218
+CLIN-0041,Ibuprofen intolerance,ALLERGY,231,252
+CLIN-0041,eGFR 28 mL/min/1.73m2,LAB_RESULT,278,299
+CLIN-0041,Creatinine 215 umol/L,LAB_RESULT,301,322
+CLIN-0041,Potassium 5.7 mmol/L,LAB_RESULT,324,344
+CLIN-0041,hyperkalaemia,RED_FLAG,364,377
+CLIN-0041,low eGFR,RED_FLAG,379,387
+CLIN-0042,Chronic kidney disease,DIAGNOSIS,101,123
+CLIN-0042,ankle swelling,SYMPTOM,146,160
+CLIN-0042,fatigue,SYMPTOM,162,169
+CLIN-0042,Ramipril 5 mg daily,MEDICATION,193,212
+CLIN-0042,Furosemide 40 mg daily,MEDICATION,214,236
+CLIN-0042,Ibuprofen intolerance,ALLERGY,260,281
+CLIN-0042,eGFR 28 mL/min/1.73m2,LAB_RESULT,312,333
+CLIN-0042,Creatinine 215 umol/L,LAB_RESULT,335,356
+CLIN-0042,Potassium 5.7 mmol/L,LAB_RESULT,358,378
+CLIN-0042,hyperkalaemia,RED_FLAG,397,410
+CLIN-0042,low eGFR,RED_FLAG,412,420
+CLIN-0043,Chronic kidney disease,DIAGNOSIS,163,185
+CLIN-0043,ankle swelling,SYMPTOM,100,114
+CLIN-0043,fatigue,SYMPTOM,116,123
+CLIN-0043,Ramipril 5 mg daily,MEDICATION,212,231
+CLIN-0043,Furosemide 40 mg daily,MEDICATION,233,255
+CLIN-0043,Ibuprofen intolerance,ALLERGY,273,294
+CLIN-0043,eGFR 28 mL/min/1.73m2,LAB_RESULT,314,335
+CLIN-0043,Creatinine 215 umol/L,LAB_RESULT,337,358
+CLIN-0043,Potassium 5.7 mmol/L,LAB_RESULT,360,380
+CLIN-0043,hyperkalaemia,RED_FLAG,463,476
+CLIN-0043,low eGFR,RED_FLAG,478,486
+CLIN-0044,Chronic kidney disease,DIAGNOSIS,68,90
+CLIN-0044,ankle swelling,SYMPTOM,121,135
+CLIN-0044,fatigue,SYMPTOM,137,144
+CLIN-0044,Ramipril 5 mg daily,MEDICATION,174,193
+CLIN-0044,Furosemide 40 mg daily,MEDICATION,195,217
+CLIN-0044,Ibuprofen intolerance,ALLERGY,230,251
+CLIN-0044,eGFR 28 mL/min/1.73m2,LAB_RESULT,277,298
+CLIN-0044,Creatinine 215 umol/L,LAB_RESULT,300,321
+CLIN-0044,Potassium 5.7 mmol/L,LAB_RESULT,323,343
+CLIN-0044,hyperkalaemia,RED_FLAG,363,376
+CLIN-0044,low eGFR,RED_FLAG,378,386
+CLIN-0045,Chronic kidney disease,DIAGNOSIS,96,118
+CLIN-0045,ankle swelling,SYMPTOM,141,155
+CLIN-0045,fatigue,SYMPTOM,157,164
+CLIN-0045,Ramipril 5 mg daily,MEDICATION,188,207
+CLIN-0045,Furosemide 40 mg daily,MEDICATION,209,231
+CLIN-0045,Ibuprofen intolerance,ALLERGY,255,276
+CLIN-0045,eGFR 28 mL/min/1.73m2,LAB_RESULT,307,328
+CLIN-0045,Creatinine 215 umol/L,LAB_RESULT,330,351
+CLIN-0045,Potassium 5.7 mmol/L,LAB_RESULT,353,373
+CLIN-0045,hyperkalaemia,RED_FLAG,392,405
+CLIN-0045,low eGFR,RED_FLAG,407,415
+CLIN-0046,Chronic kidney disease,DIAGNOSIS,160,182
+CLIN-0046,ankle swelling,SYMPTOM,97,111
+CLIN-0046,fatigue,SYMPTOM,113,120
+CLIN-0046,Ramipril 5 mg daily,MEDICATION,209,228
+CLIN-0046,Furosemide 40 mg daily,MEDICATION,230,252
+CLIN-0046,Ibuprofen intolerance,ALLERGY,270,291
+CLIN-0046,eGFR 28 mL/min/1.73m2,LAB_RESULT,311,332
+CLIN-0046,Creatinine 215 umol/L,LAB_RESULT,334,355
+CLIN-0046,Potassium 5.7 mmol/L,LAB_RESULT,357,377
+CLIN-0046,hyperkalaemia,RED_FLAG,460,473
+CLIN-0046,low eGFR,RED_FLAG,475,483
+CLIN-0047,Chronic kidney disease,DIAGNOSIS,68,90
+CLIN-0047,ankle swelling,SYMPTOM,121,135
+CLIN-0047,fatigue,SYMPTOM,137,144
+CLIN-0047,Ramipril 5 mg daily,MEDICATION,174,193
+CLIN-0047,Furosemide 40 mg daily,MEDICATION,195,217
+CLIN-0047,Ibuprofen intolerance,ALLERGY,230,251
+CLIN-0047,eGFR 28 mL/min/1.73m2,LAB_RESULT,277,298
+CLIN-0047,Creatinine 215 umol/L,LAB_RESULT,300,321
+CLIN-0047,Potassium 5.7 mmol/L,LAB_RESULT,323,343
+CLIN-0047,hyperkalaemia,RED_FLAG,363,376
+CLIN-0047,low eGFR,RED_FLAG,378,386
+CLIN-0048,Chronic kidney disease,DIAGNOSIS,98,120
+CLIN-0048,ankle swelling,SYMPTOM,143,157
+CLIN-0048,fatigue,SYMPTOM,159,166
+CLIN-0048,Ramipril 5 mg daily,MEDICATION,190,209
+CLIN-0048,Furosemide 40 mg daily,MEDICATION,211,233
+CLIN-0048,Ibuprofen intolerance,ALLERGY,257,278
+CLIN-0048,eGFR 28 mL/min/1.73m2,LAB_RESULT,309,330
+CLIN-0048,Creatinine 215 umol/L,LAB_RESULT,332,353
+CLIN-0048,Potassium 5.7 mmol/L,LAB_RESULT,355,375
+CLIN-0048,hyperkalaemia,RED_FLAG,394,407
+CLIN-0048,low eGFR,RED_FLAG,409,417
+CLIN-0049,Hypertension,DIAGNOSIS,73,85
+CLIN-0049,headache,SYMPTOM,116,124
+CLIN-0049,occasional dizziness,SYMPTOM,126,146
+CLIN-0049,Amlodipine 10 mg daily,MEDICATION,176,198
+CLIN-0049,No known drug allergies,ALLERGY,211,234
+CLIN-0049,Blood pressure 168/96 mmHg,LAB_RESULT,260,286
+CLIN-0049,BMI 31,LAB_RESULT,288,294
+CLIN-0049,blood pressure above target,RED_FLAG,314,341
+CLIN-0050,Hypertension,DIAGNOSIS,101,113
+CLIN-0050,headache,SYMPTOM,136,144
+CLIN-0050,occasional dizziness,SYMPTOM,146,166
+CLIN-0050,Amlodipine 10 mg daily,MEDICATION,190,212
+CLIN-0050,No known drug allergies,ALLERGY,236,259
+CLIN-0050,Blood pressure 168/96 mmHg,LAB_RESULT,290,316
+CLIN-0050,BMI 31,LAB_RESULT,318,324
+CLIN-0050,blood pressure above target,RED_FLAG,343,370
+CLIN-0051,Hypertension,DIAGNOSIS,167,179
+CLIN-0051,headache,SYMPTOM,97,105
+CLIN-0051,occasional dizziness,SYMPTOM,107,127
+CLIN-0051,Amlodipine 10 mg daily,MEDICATION,206,228
+CLIN-0051,No known drug allergies,ALLERGY,246,269
+CLIN-0051,Blood pressure 168/96 mmHg,LAB_RESULT,289,315
+CLIN-0051,BMI 31,LAB_RESULT,317,323
+CLIN-0051,blood pressure above target,RED_FLAG,406,433
+CLIN-0052,Hypertension,DIAGNOSIS,71,83
+CLIN-0052,headache,SYMPTOM,114,122
+CLIN-0052,occasional dizziness,SYMPTOM,124,144
+CLIN-0052,Amlodipine 10 mg daily,MEDICATION,174,196
+CLIN-0052,No known drug allergies,ALLERGY,209,232
+CLIN-0052,Blood pressure 168/96 mmHg,LAB_RESULT,258,284
+CLIN-0052,BMI 31,LAB_RESULT,286,292
+CLIN-0052,blood pressure above target,RED_FLAG,312,339
+CLIN-0053,Hypertension,DIAGNOSIS,99,111
+CLIN-0053,headache,SYMPTOM,134,142
+CLIN-0053,occasional dizziness,SYMPTOM,144,164
+CLIN-0053,Amlodipine 10 mg daily,MEDICATION,188,210
+CLIN-0053,No known drug allergies,ALLERGY,234,257
+CLIN-0053,Blood pressure 168/96 mmHg,LAB_RESULT,288,314
+CLIN-0053,BMI 31,LAB_RESULT,316,322
+CLIN-0053,blood pressure above target,RED_FLAG,341,368
+CLIN-0054,Hypertension,DIAGNOSIS,170,182
+CLIN-0054,headache,SYMPTOM,100,108
+CLIN-0054,occasional dizziness,SYMPTOM,110,130
+CLIN-0054,Amlodipine 10 mg daily,MEDICATION,209,231
+CLIN-0054,No known drug allergies,ALLERGY,249,272
+CLIN-0054,Blood pressure 168/96 mmHg,LAB_RESULT,292,318
+CLIN-0054,BMI 31,LAB_RESULT,320,326
+CLIN-0054,blood pressure above target,RED_FLAG,409,436
+CLIN-0055,Hypertension,DIAGNOSIS,74,86
+CLIN-0055,headache,SYMPTOM,117,125
+CLIN-0055,occasional dizziness,SYMPTOM,127,147
+CLIN-0055,Amlodipine 10 mg daily,MEDICATION,177,199
+CLIN-0055,No known drug allergies,ALLERGY,212,235
+CLIN-0055,Blood pressure 168/96 mmHg,LAB_RESULT,261,287
+CLIN-0055,BMI 31,LAB_RESULT,289,295
+CLIN-0055,blood pressure above target,RED_FLAG,315,342
+CLIN-0056,Hypertension,DIAGNOSIS,98,110
+CLIN-0056,headache,SYMPTOM,133,141
+CLIN-0056,occasional dizziness,SYMPTOM,143,163
+CLIN-0056,Amlodipine 10 mg daily,MEDICATION,187,209
+CLIN-0056,No known drug allergies,ALLERGY,233,256
+CLIN-0056,Blood pressure 168/96 mmHg,LAB_RESULT,287,313
+CLIN-0056,BMI 31,LAB_RESULT,315,321
+CLIN-0056,blood pressure above target,RED_FLAG,340,367
+CLIN-0057,Hypertension,DIAGNOSIS,165,177
+CLIN-0057,headache,SYMPTOM,95,103
+CLIN-0057,occasional dizziness,SYMPTOM,105,125
+CLIN-0057,Amlodipine 10 mg daily,MEDICATION,204,226
+CLIN-0057,No known drug allergies,ALLERGY,244,267
+CLIN-0057,Blood pressure 168/96 mmHg,LAB_RESULT,287,313
+CLIN-0057,BMI 31,LAB_RESULT,315,321
+CLIN-0057,blood pressure above target,RED_FLAG,404,431
+CLIN-0058,Hypertension,DIAGNOSIS,71,83
+CLIN-0058,headache,SYMPTOM,114,122
+CLIN-0058,occasional dizziness,SYMPTOM,124,144
+CLIN-0058,Amlodipine 10 mg daily,MEDICATION,174,196
+CLIN-0058,No known drug allergies,ALLERGY,209,232
+CLIN-0058,Blood pressure 168/96 mmHg,LAB_RESULT,258,284
+CLIN-0058,BMI 31,LAB_RESULT,286,292
+CLIN-0058,blood pressure above target,RED_FLAG,312,339
+CLIN-0059,Hypertension,DIAGNOSIS,98,110
+CLIN-0059,headache,SYMPTOM,133,141
+CLIN-0059,occasional dizziness,SYMPTOM,143,163
+CLIN-0059,Amlodipine 10 mg daily,MEDICATION,187,209
+CLIN-0059,No known drug allergies,ALLERGY,233,256
+CLIN-0059,Blood pressure 168/96 mmHg,LAB_RESULT,287,313
+CLIN-0059,BMI 31,LAB_RESULT,315,321
+CLIN-0059,blood pressure above target,RED_FLAG,340,367
+CLIN-0060,Hypertension,DIAGNOSIS,167,179
+CLIN-0060,headache,SYMPTOM,97,105
+CLIN-0060,occasional dizziness,SYMPTOM,107,127
+CLIN-0060,Amlodipine 10 mg daily,MEDICATION,206,228
+CLIN-0060,No known drug allergies,ALLERGY,246,269
+CLIN-0060,Blood pressure 168/96 mmHg,LAB_RESULT,289,315
+CLIN-0060,BMI 31,LAB_RESULT,317,323
+CLIN-0060,blood pressure above target,RED_FLAG,406,433
+CLIN-0061,Atrial fibrillation,DIAGNOSIS,108,127
+CLIN-0061,palpitations,SYMPTOM,150,162
+CLIN-0061,mild dizziness,SYMPTOM,164,178
+CLIN-0061,Apixaban 5 mg twice daily,MEDICATION,202,227
+CLIN-0061,Bisoprolol 2.5 mg daily,MEDICATION,229,252
+CLIN-0061,Sulfa allergy,ALLERGY,276,289
+CLIN-0061,Heart rate 104 bpm,LAB_RESULT,320,338
+CLIN-0061,INR not applicable,LAB_RESULT,340,358
+CLIN-0061,tachycardia,RED_FLAG,377,388
+CLIN-0061,anticoagulant therapy,RED_FLAG,390,411
+CLIN-0062,Atrial fibrillation,DIAGNOSIS,173,192
+CLIN-0062,palpitations,SYMPTOM,105,117
+CLIN-0062,mild dizziness,SYMPTOM,119,133
+CLIN-0062,Apixaban 5 mg twice daily,MEDICATION,219,244
+CLIN-0062,Bisoprolol 2.5 mg daily,MEDICATION,246,269
+CLIN-0062,Sulfa allergy,ALLERGY,287,300
+CLIN-0062,Heart rate 104 bpm,LAB_RESULT,320,338
+CLIN-0062,INR not applicable,LAB_RESULT,340,358
+CLIN-0062,tachycardia,RED_FLAG,441,452
+CLIN-0062,anticoagulant therapy,RED_FLAG,454,475
+CLIN-0063,Atrial fibrillation,DIAGNOSIS,76,95
+CLIN-0063,palpitations,SYMPTOM,126,138
+CLIN-0063,mild dizziness,SYMPTOM,140,154
+CLIN-0063,Apixaban 5 mg twice daily,MEDICATION,184,209
+CLIN-0063,Bisoprolol 2.5 mg daily,MEDICATION,211,234
+CLIN-0063,Sulfa allergy,ALLERGY,247,260
+CLIN-0063,Heart rate 104 bpm,LAB_RESULT,286,304
+CLIN-0063,INR not applicable,LAB_RESULT,306,324
+CLIN-0063,tachycardia,RED_FLAG,344,355
+CLIN-0063,anticoagulant therapy,RED_FLAG,357,378
+CLIN-0064,Atrial fibrillation,DIAGNOSIS,106,125
+CLIN-0064,palpitations,SYMPTOM,148,160
+CLIN-0064,mild dizziness,SYMPTOM,162,176
+CLIN-0064,Apixaban 5 mg twice daily,MEDICATION,200,225
+CLIN-0064,Bisoprolol 2.5 mg daily,MEDICATION,227,250
+CLIN-0064,Sulfa allergy,ALLERGY,274,287
+CLIN-0064,Heart rate 104 bpm,LAB_RESULT,318,336
+CLIN-0064,INR not applicable,LAB_RESULT,338,356
+CLIN-0064,tachycardia,RED_FLAG,375,386
+CLIN-0064,anticoagulant therapy,RED_FLAG,388,409
+CLIN-0065,Atrial fibrillation,DIAGNOSIS,171,190
+CLIN-0065,palpitations,SYMPTOM,103,115
+CLIN-0065,mild dizziness,SYMPTOM,117,131
+CLIN-0065,Apixaban 5 mg twice daily,MEDICATION,217,242
+CLIN-0065,Bisoprolol 2.5 mg daily,MEDICATION,244,267
+CLIN-0065,Sulfa allergy,ALLERGY,285,298
+CLIN-0065,Heart rate 104 bpm,LAB_RESULT,318,336
+CLIN-0065,INR not applicable,LAB_RESULT,338,356
+CLIN-0065,tachycardia,RED_FLAG,439,450
+CLIN-0065,anticoagulant therapy,RED_FLAG,452,473
+CLIN-0066,Atrial fibrillation,DIAGNOSIS,79,98
+CLIN-0066,palpitations,SYMPTOM,129,141
+CLIN-0066,mild dizziness,SYMPTOM,143,157
+CLIN-0066,Apixaban 5 mg twice daily,MEDICATION,187,212
+CLIN-0066,Bisoprolol 2.5 mg daily,MEDICATION,214,237
+CLIN-0066,Sulfa allergy,ALLERGY,250,263
+CLIN-0066,Heart rate 104 bpm,LAB_RESULT,289,307
+CLIN-0066,INR not applicable,LAB_RESULT,309,327
+CLIN-0066,tachycardia,RED_FLAG,347,358
+CLIN-0066,anticoagulant therapy,RED_FLAG,360,381
+CLIN-0067,Atrial fibrillation,DIAGNOSIS,109,128
+CLIN-0067,palpitations,SYMPTOM,151,163
+CLIN-0067,mild dizziness,SYMPTOM,165,179
+CLIN-0067,Apixaban 5 mg twice daily,MEDICATION,203,228
+CLIN-0067,Bisoprolol 2.5 mg daily,MEDICATION,230,253
+CLIN-0067,Sulfa allergy,ALLERGY,277,290
+CLIN-0067,Heart rate 104 bpm,LAB_RESULT,321,339
+CLIN-0067,INR not applicable,LAB_RESULT,341,359
+CLIN-0067,tachycardia,RED_FLAG,378,389
+CLIN-0067,anticoagulant therapy,RED_FLAG,391,412
+CLIN-0068,Atrial fibrillation,DIAGNOSIS,170,189
+CLIN-0068,palpitations,SYMPTOM,102,114
+CLIN-0068,mild dizziness,SYMPTOM,116,130
+CLIN-0068,Apixaban 5 mg twice daily,MEDICATION,216,241
+CLIN-0068,Bisoprolol 2.5 mg daily,MEDICATION,243,266
+CLIN-0068,Sulfa allergy,ALLERGY,284,297
+CLIN-0068,Heart rate 104 bpm,LAB_RESULT,317,335
+CLIN-0068,INR not applicable,LAB_RESULT,337,355
+CLIN-0068,tachycardia,RED_FLAG,438,449
+CLIN-0068,anticoagulant therapy,RED_FLAG,451,472
+CLIN-0069,Atrial fibrillation,DIAGNOSIS,74,93
+CLIN-0069,palpitations,SYMPTOM,124,136
+CLIN-0069,mild dizziness,SYMPTOM,138,152
+CLIN-0069,Apixaban 5 mg twice daily,MEDICATION,182,207
+CLIN-0069,Bisoprolol 2.5 mg daily,MEDICATION,209,232
+CLIN-0069,Sulfa allergy,ALLERGY,245,258
+CLIN-0069,Heart rate 104 bpm,LAB_RESULT,284,302
+CLIN-0069,INR not applicable,LAB_RESULT,304,322
+CLIN-0069,tachycardia,RED_FLAG,342,353
+CLIN-0069,anticoagulant therapy,RED_FLAG,355,376
+CLIN-0070,Atrial fibrillation,DIAGNOSIS,106,125
+CLIN-0070,palpitations,SYMPTOM,148,160
+CLIN-0070,mild dizziness,SYMPTOM,162,176
+CLIN-0070,Apixaban 5 mg twice daily,MEDICATION,200,225
+CLIN-0070,Bisoprolol 2.5 mg daily,MEDICATION,227,250
+CLIN-0070,Sulfa allergy,ALLERGY,274,287
+CLIN-0070,Heart rate 104 bpm,LAB_RESULT,318,336
+CLIN-0070,INR not applicable,LAB_RESULT,338,356
+CLIN-0070,tachycardia,RED_FLAG,375,386
+CLIN-0070,anticoagulant therapy,RED_FLAG,388,409
+CLIN-0071,Atrial fibrillation,DIAGNOSIS,170,189
+CLIN-0071,palpitations,SYMPTOM,102,114
+CLIN-0071,mild dizziness,SYMPTOM,116,130
+CLIN-0071,Apixaban 5 mg twice daily,MEDICATION,216,241
+CLIN-0071,Bisoprolol 2.5 mg daily,MEDICATION,243,266
+CLIN-0071,Sulfa allergy,ALLERGY,284,297
+CLIN-0071,Heart rate 104 bpm,LAB_RESULT,317,335
+CLIN-0071,INR not applicable,LAB_RESULT,337,355
+CLIN-0071,tachycardia,RED_FLAG,438,449
+CLIN-0071,anticoagulant therapy,RED_FLAG,451,472
+CLIN-0072,Atrial fibrillation,DIAGNOSIS,76,95
+CLIN-0072,palpitations,SYMPTOM,126,138
+CLIN-0072,mild dizziness,SYMPTOM,140,154
+CLIN-0072,Apixaban 5 mg twice daily,MEDICATION,184,209
+CLIN-0072,Bisoprolol 2.5 mg daily,MEDICATION,211,234
+CLIN-0072,Sulfa allergy,ALLERGY,247,260
+CLIN-0072,Heart rate 104 bpm,LAB_RESULT,286,304
+CLIN-0072,INR not applicable,LAB_RESULT,306,324
+CLIN-0072,tachycardia,RED_FLAG,344,355
+CLIN-0072,anticoagulant therapy,RED_FLAG,357,378
+CLIN-0073,Community-acquired pneumonia,DIAGNOSIS,197,225
+CLIN-0073,fever,SYMPTOM,112,117
+CLIN-0073,productive cough,SYMPTOM,119,135
+CLIN-0073,pleuritic chest pain,SYMPTOM,137,157
+CLIN-0073,Amoxicillin 500 mg three times daily,MEDICATION,252,288
+CLIN-0073,Paracetamol as needed,MEDICATION,290,311
+CLIN-0073,No known drug allergies,ALLERGY,329,352
+CLIN-0073,CRP 86 mg/L,LAB_RESULT,372,383
+CLIN-0073,Temperature 38.6 C,LAB_RESULT,385,403
+CLIN-0073,Chest X-ray right lower lobe infiltrate,LAB_RESULT,405,444
+CLIN-0073,fever,RED_FLAG,112,117
+CLIN-0073,raised inflammatory marker,RED_FLAG,534,560
+CLIN-0073,radiographic infiltrate,RED_FLAG,562,585
+CLIN-0074,Community-acquired pneumonia,DIAGNOSIS,84,112
+CLIN-0074,fever,SYMPTOM,143,148
+CLIN-0074,productive cough,SYMPTOM,150,166
+CLIN-0074,pleuritic chest pain,SYMPTOM,168,188
+CLIN-0074,Amoxicillin 500 mg three times daily,MEDICATION,218,254
+CLIN-0074,Paracetamol as needed,MEDICATION,256,277
+CLIN-0074,No known drug allergies,ALLERGY,290,313
+CLIN-0074,CRP 86 mg/L,LAB_RESULT,339,350
+CLIN-0074,Temperature 38.6 C,LAB_RESULT,352,370
+CLIN-0074,Chest X-ray right lower lobe infiltrate,LAB_RESULT,372,411
+CLIN-0074,fever,RED_FLAG,143,148
+CLIN-0074,raised inflammatory marker,RED_FLAG,438,464
+CLIN-0074,radiographic infiltrate,RED_FLAG,466,489
+CLIN-0075,Community-acquired pneumonia,DIAGNOSIS,111,139
+CLIN-0075,fever,SYMPTOM,162,167
+CLIN-0075,productive cough,SYMPTOM,169,185
+CLIN-0075,pleuritic chest pain,SYMPTOM,187,207
+CLIN-0075,Amoxicillin 500 mg three times daily,MEDICATION,231,267
+CLIN-0075,Paracetamol as needed,MEDICATION,269,290
+CLIN-0075,No known drug allergies,ALLERGY,314,337
+CLIN-0075,CRP 86 mg/L,LAB_RESULT,368,379
+CLIN-0075,Temperature 38.6 C,LAB_RESULT,381,399
+CLIN-0075,Chest X-ray right lower lobe infiltrate,LAB_RESULT,401,440
+CLIN-0075,fever,RED_FLAG,162,167
+CLIN-0075,raised inflammatory marker,RED_FLAG,466,492
+CLIN-0075,radiographic infiltrate,RED_FLAG,494,517
+CLIN-0076,Community-acquired pneumonia,DIAGNOSIS,195,223
+CLIN-0076,fever,SYMPTOM,110,115
+CLIN-0076,productive cough,SYMPTOM,117,133
+CLIN-0076,pleuritic chest pain,SYMPTOM,135,155
+CLIN-0076,Amoxicillin 500 mg three times daily,MEDICATION,250,286
+CLIN-0076,Paracetamol as needed,MEDICATION,288,309
+CLIN-0076,No known drug allergies,ALLERGY,327,350
+CLIN-0076,CRP 86 mg/L,LAB_RESULT,370,381
+CLIN-0076,Temperature 38.6 C,LAB_RESULT,383,401
+CLIN-0076,Chest X-ray right lower lobe infiltrate,LAB_RESULT,403,442
+CLIN-0076,fever,RED_FLAG,110,115
+CLIN-0076,raised inflammatory marker,RED_FLAG,532,558
+CLIN-0076,radiographic infiltrate,RED_FLAG,560,583
+CLIN-0077,Community-acquired pneumonia,DIAGNOSIS,82,110
+CLIN-0077,fever,SYMPTOM,141,146
+CLIN-0077,productive cough,SYMPTOM,148,164
+CLIN-0077,pleuritic chest pain,SYMPTOM,166,186
+CLIN-0077,Amoxicillin 500 mg three times daily,MEDICATION,216,252
+CLIN-0077,Paracetamol as needed,MEDICATION,254,275
+CLIN-0077,No known drug allergies,ALLERGY,288,311
+CLIN-0077,CRP 86 mg/L,LAB_RESULT,337,348
+CLIN-0077,Temperature 38.6 C,LAB_RESULT,350,368
+CLIN-0077,Chest X-ray right lower lobe infiltrate,LAB_RESULT,370,409
+CLIN-0077,fever,RED_FLAG,141,146
+CLIN-0077,raised inflammatory marker,RED_FLAG,436,462
+CLIN-0077,radiographic infiltrate,RED_FLAG,464,487
+CLIN-0078,Community-acquired pneumonia,DIAGNOSIS,114,142
+CLIN-0078,fever,SYMPTOM,165,170
+CLIN-0078,productive cough,SYMPTOM,172,188
+CLIN-0078,pleuritic chest pain,SYMPTOM,190,210
+CLIN-0078,Amoxicillin 500 mg three times daily,MEDICATION,234,270
+CLIN-0078,Paracetamol as needed,MEDICATION,272,293
+CLIN-0078,No known drug allergies,ALLERGY,317,340
+CLIN-0078,CRP 86 mg/L,LAB_RESULT,371,382
+CLIN-0078,Temperature 38.6 C,LAB_RESULT,384,402
+CLIN-0078,Chest X-ray right lower lobe infiltrate,LAB_RESULT,404,443
+CLIN-0078,fever,RED_FLAG,165,170
+CLIN-0078,raised inflammatory marker,RED_FLAG,469,495
+CLIN-0078,radiographic infiltrate,RED_FLAG,497,520
+CLIN-0079,Community-acquired pneumonia,DIAGNOSIS,198,226
+CLIN-0079,fever,SYMPTOM,113,118
+CLIN-0079,productive cough,SYMPTOM,120,136
+CLIN-0079,pleuritic chest pain,SYMPTOM,138,158
+CLIN-0079,Amoxicillin 500 mg three times daily,MEDICATION,253,289
+CLIN-0079,Paracetamol as needed,MEDICATION,291,312
+CLIN-0079,No known drug allergies,ALLERGY,330,353
+CLIN-0079,CRP 86 mg/L,LAB_RESULT,373,384
+CLIN-0079,Temperature 38.6 C,LAB_RESULT,386,404
+CLIN-0079,Chest X-ray right lower lobe infiltrate,LAB_RESULT,406,445
+CLIN-0079,fever,RED_FLAG,113,118
+CLIN-0079,raised inflammatory marker,RED_FLAG,535,561
+CLIN-0079,radiographic infiltrate,RED_FLAG,563,586
+CLIN-0080,Community-acquired pneumonia,DIAGNOSIS,81,109
+CLIN-0080,fever,SYMPTOM,140,145
+CLIN-0080,productive cough,SYMPTOM,147,163
+CLIN-0080,pleuritic chest pain,SYMPTOM,165,185
+CLIN-0080,Amoxicillin 500 mg three times daily,MEDICATION,215,251
+CLIN-0080,Paracetamol as needed,MEDICATION,253,274
+CLIN-0080,No known drug allergies,ALLERGY,287,310
+CLIN-0080,CRP 86 mg/L,LAB_RESULT,336,347
+CLIN-0080,Temperature 38.6 C,LAB_RESULT,349,367
+CLIN-0080,Chest X-ray right lower lobe infiltrate,LAB_RESULT,369,408
+CLIN-0080,fever,RED_FLAG,140,145
+CLIN-0080,raised inflammatory marker,RED_FLAG,435,461
+CLIN-0080,radiographic infiltrate,RED_FLAG,463,486
+CLIN-0081,Community-acquired pneumonia,DIAGNOSIS,109,137
+CLIN-0081,fever,SYMPTOM,160,165
+CLIN-0081,productive cough,SYMPTOM,167,183
+CLIN-0081,pleuritic chest pain,SYMPTOM,185,205
+CLIN-0081,Amoxicillin 500 mg three times daily,MEDICATION,229,265
+CLIN-0081,Paracetamol as needed,MEDICATION,267,288
+CLIN-0081,No known drug allergies,ALLERGY,312,335
+CLIN-0081,CRP 86 mg/L,LAB_RESULT,366,377
+CLIN-0081,Temperature 38.6 C,LAB_RESULT,379,397
+CLIN-0081,Chest X-ray right lower lobe infiltrate,LAB_RESULT,399,438
+CLIN-0081,fever,RED_FLAG,160,165
+CLIN-0081,raised inflammatory marker,RED_FLAG,464,490
+CLIN-0081,radiographic infiltrate,RED_FLAG,492,515
+CLIN-0082,Community-acquired pneumonia,DIAGNOSIS,195,223
+CLIN-0082,fever,SYMPTOM,110,115
+CLIN-0082,productive cough,SYMPTOM,117,133
+CLIN-0082,pleuritic chest pain,SYMPTOM,135,155
+CLIN-0082,Amoxicillin 500 mg three times daily,MEDICATION,250,286
+CLIN-0082,Paracetamol as needed,MEDICATION,288,309
+CLIN-0082,No known drug allergies,ALLERGY,327,350
+CLIN-0082,CRP 86 mg/L,LAB_RESULT,370,381
+CLIN-0082,Temperature 38.6 C,LAB_RESULT,383,401
+CLIN-0082,Chest X-ray right lower lobe infiltrate,LAB_RESULT,403,442
+CLIN-0082,fever,RED_FLAG,110,115
+CLIN-0082,raised inflammatory marker,RED_FLAG,532,558
+CLIN-0082,radiographic infiltrate,RED_FLAG,560,583
+CLIN-0083,Community-acquired pneumonia,DIAGNOSIS,81,109
+CLIN-0083,fever,SYMPTOM,140,145
+CLIN-0083,productive cough,SYMPTOM,147,163
+CLIN-0083,pleuritic chest pain,SYMPTOM,165,185
+CLIN-0083,Amoxicillin 500 mg three times daily,MEDICATION,215,251
+CLIN-0083,Paracetamol as needed,MEDICATION,253,274
+CLIN-0083,No known drug allergies,ALLERGY,287,310
+CLIN-0083,CRP 86 mg/L,LAB_RESULT,336,347
+CLIN-0083,Temperature 38.6 C,LAB_RESULT,349,367
+CLIN-0083,Chest X-ray right lower lobe infiltrate,LAB_RESULT,369,408
+CLIN-0083,fever,RED_FLAG,140,145
+CLIN-0083,raised inflammatory marker,RED_FLAG,435,461
+CLIN-0083,radiographic infiltrate,RED_FLAG,463,486
+CLIN-0084,Community-acquired pneumonia,DIAGNOSIS,111,139
+CLIN-0084,fever,SYMPTOM,162,167
+CLIN-0084,productive cough,SYMPTOM,169,185
+CLIN-0084,pleuritic chest pain,SYMPTOM,187,207
+CLIN-0084,Amoxicillin 500 mg three times daily,MEDICATION,231,267
+CLIN-0084,Paracetamol as needed,MEDICATION,269,290
+CLIN-0084,No known drug allergies,ALLERGY,314,337
+CLIN-0084,CRP 86 mg/L,LAB_RESULT,368,379
+CLIN-0084,Temperature 38.6 C,LAB_RESULT,381,399
+CLIN-0084,Chest X-ray right lower lobe infiltrate,LAB_RESULT,401,440
+CLIN-0084,fever,RED_FLAG,162,167
+CLIN-0084,raised inflammatory marker,RED_FLAG,466,492
+CLIN-0084,radiographic infiltrate,RED_FLAG,494,517
+CLIN-0085,Heart failure,DIAGNOSIS,79,92
+CLIN-0085,shortness of breath,SYMPTOM,123,142
+CLIN-0085,orthopnoea,SYMPTOM,144,154
+CLIN-0085,leg swelling,SYMPTOM,156,168
+CLIN-0085,Furosemide 40 mg daily,MEDICATION,198,220
+CLIN-0085,Ramipril 2.5 mg daily,MEDICATION,222,243
+CLIN-0085,Bisoprolol 1.25 mg daily,MEDICATION,245,269
+CLIN-0085,No known drug allergies,ALLERGY,282,305
+CLIN-0085,BNP 920 pg/mL,LAB_RESULT,331,344
+CLIN-0085,Chest X-ray pulmonary congestion,LAB_RESULT,346,378
+CLIN-0085,fluid overload,RED_FLAG,398,412
+CLIN-0085,high BNP,RED_FLAG,414,422
+CLIN-0086,Heart failure,DIAGNOSIS,107,120
+CLIN-0086,shortness of breath,SYMPTOM,143,162
+CLIN-0086,orthopnoea,SYMPTOM,164,174
+CLIN-0086,leg swelling,SYMPTOM,176,188
+CLIN-0086,Furosemide 40 mg daily,MEDICATION,212,234
+CLIN-0086,Ramipril 2.5 mg daily,MEDICATION,236,257
+CLIN-0086,Bisoprolol 1.25 mg daily,MEDICATION,259,283
+CLIN-0086,No known drug allergies,ALLERGY,307,330
+CLIN-0086,BNP 920 pg/mL,LAB_RESULT,361,374
+CLIN-0086,Chest X-ray pulmonary congestion,LAB_RESULT,376,408
+CLIN-0086,fluid overload,RED_FLAG,427,441
+CLIN-0086,high BNP,RED_FLAG,443,451
+CLIN-0087,Heart failure,DIAGNOSIS,188,201
+CLIN-0087,shortness of breath,SYMPTOM,103,122
+CLIN-0087,orthopnoea,SYMPTOM,124,134
+CLIN-0087,leg swelling,SYMPTOM,136,148
+CLIN-0087,Furosemide 40 mg daily,MEDICATION,228,250
+CLIN-0087,Ramipril 2.5 mg daily,MEDICATION,252,273
+CLIN-0087,Bisoprolol 1.25 mg daily,MEDICATION,275,299
+CLIN-0087,No known drug allergies,ALLERGY,317,340
+CLIN-0087,BNP 920 pg/mL,LAB_RESULT,360,373
+CLIN-0087,Chest X-ray pulmonary congestion,LAB_RESULT,375,407
+CLIN-0087,fluid overload,RED_FLAG,490,504
+CLIN-0087,high BNP,RED_FLAG,506,514
+CLIN-0088,Heart failure,DIAGNOSIS,77,90
+CLIN-0088,shortness of breath,SYMPTOM,121,140
+CLIN-0088,orthopnoea,SYMPTOM,142,152
+CLIN-0088,leg swelling,SYMPTOM,154,166
+CLIN-0088,Furosemide 40 mg daily,MEDICATION,196,218
+CLIN-0088,Ramipril 2.5 mg daily,MEDICATION,220,241
+CLIN-0088,Bisoprolol 1.25 mg daily,MEDICATION,243,267
+CLIN-0088,No known drug allergies,ALLERGY,280,303
+CLIN-0088,BNP 920 pg/mL,LAB_RESULT,329,342
+CLIN-0088,Chest X-ray pulmonary congestion,LAB_RESULT,344,376
+CLIN-0088,fluid overload,RED_FLAG,396,410
+CLIN-0088,high BNP,RED_FLAG,412,420
+CLIN-0089,Heart failure,DIAGNOSIS,105,118
+CLIN-0089,shortness of breath,SYMPTOM,141,160
+CLIN-0089,orthopnoea,SYMPTOM,162,172
+CLIN-0089,leg swelling,SYMPTOM,174,186
+CLIN-0089,Furosemide 40 mg daily,MEDICATION,210,232
+CLIN-0089,Ramipril 2.5 mg daily,MEDICATION,234,255
+CLIN-0089,Bisoprolol 1.25 mg daily,MEDICATION,257,281
+CLIN-0089,No known drug allergies,ALLERGY,305,328
+CLIN-0089,BNP 920 pg/mL,LAB_RESULT,359,372
+CLIN-0089,Chest X-ray pulmonary congestion,LAB_RESULT,374,406
+CLIN-0089,fluid overload,RED_FLAG,425,439
+CLIN-0089,high BNP,RED_FLAG,441,449
+CLIN-0090,Heart failure,DIAGNOSIS,191,204
+CLIN-0090,shortness of breath,SYMPTOM,106,125
+CLIN-0090,orthopnoea,SYMPTOM,127,137
+CLIN-0090,leg swelling,SYMPTOM,139,151
+CLIN-0090,Furosemide 40 mg daily,MEDICATION,231,253
+CLIN-0090,Ramipril 2.5 mg daily,MEDICATION,255,276
+CLIN-0090,Bisoprolol 1.25 mg daily,MEDICATION,278,302
+CLIN-0090,No known drug allergies,ALLERGY,320,343
+CLIN-0090,BNP 920 pg/mL,LAB_RESULT,363,376
+CLIN-0090,Chest X-ray pulmonary congestion,LAB_RESULT,378,410
+CLIN-0090,fluid overload,RED_FLAG,493,507
+CLIN-0090,high BNP,RED_FLAG,509,517
+CLIN-0091,Heart failure,DIAGNOSIS,80,93
+CLIN-0091,shortness of breath,SYMPTOM,124,143
+CLIN-0091,orthopnoea,SYMPTOM,145,155
+CLIN-0091,leg swelling,SYMPTOM,157,169
+CLIN-0091,Furosemide 40 mg daily,MEDICATION,199,221
+CLIN-0091,Ramipril 2.5 mg daily,MEDICATION,223,244
+CLIN-0091,Bisoprolol 1.25 mg daily,MEDICATION,246,270
+CLIN-0091,No known drug allergies,ALLERGY,283,306
+CLIN-0091,BNP 920 pg/mL,LAB_RESULT,332,345
+CLIN-0091,Chest X-ray pulmonary congestion,LAB_RESULT,347,379
+CLIN-0091,fluid overload,RED_FLAG,399,413
+CLIN-0091,high BNP,RED_FLAG,415,423
+CLIN-0092,Heart failure,DIAGNOSIS,104,117
+CLIN-0092,shortness of breath,SYMPTOM,140,159
+CLIN-0092,orthopnoea,SYMPTOM,161,171
+CLIN-0092,leg swelling,SYMPTOM,173,185
+CLIN-0092,Furosemide 40 mg daily,MEDICATION,209,231
+CLIN-0092,Ramipril 2.5 mg daily,MEDICATION,233,254
+CLIN-0092,Bisoprolol 1.25 mg daily,MEDICATION,256,280
+CLIN-0092,No known drug allergies,ALLERGY,304,327
+CLIN-0092,BNP 920 pg/mL,LAB_RESULT,358,371
+CLIN-0092,Chest X-ray pulmonary congestion,LAB_RESULT,373,405
+CLIN-0092,fluid overload,RED_FLAG,424,438
+CLIN-0092,high BNP,RED_FLAG,440,448
+CLIN-0093,Heart failure,DIAGNOSIS,186,199
+CLIN-0093,shortness of breath,SYMPTOM,101,120
+CLIN-0093,orthopnoea,SYMPTOM,122,132
+CLIN-0093,leg swelling,SYMPTOM,134,146
+CLIN-0093,Furosemide 40 mg daily,MEDICATION,226,248
+CLIN-0093,Ramipril 2.5 mg daily,MEDICATION,250,271
+CLIN-0093,Bisoprolol 1.25 mg daily,MEDICATION,273,297
+CLIN-0093,No known drug allergies,ALLERGY,315,338
+CLIN-0093,BNP 920 pg/mL,LAB_RESULT,358,371
+CLIN-0093,Chest X-ray pulmonary congestion,LAB_RESULT,373,405
+CLIN-0093,fluid overload,RED_FLAG,488,502
+CLIN-0093,high BNP,RED_FLAG,504,512
+CLIN-0094,Heart failure,DIAGNOSIS,77,90
+CLIN-0094,shortness of breath,SYMPTOM,121,140
+CLIN-0094,orthopnoea,SYMPTOM,142,152
+CLIN-0094,leg swelling,SYMPTOM,154,166
+CLIN-0094,Furosemide 40 mg daily,MEDICATION,196,218
+CLIN-0094,Ramipril 2.5 mg daily,MEDICATION,220,241
+CLIN-0094,Bisoprolol 1.25 mg daily,MEDICATION,243,267
+CLIN-0094,No known drug allergies,ALLERGY,280,303
+CLIN-0094,BNP 920 pg/mL,LAB_RESULT,329,342
+CLIN-0094,Chest X-ray pulmonary congestion,LAB_RESULT,344,376
+CLIN-0094,fluid overload,RED_FLAG,396,410
+CLIN-0094,high BNP,RED_FLAG,412,420
+CLIN-0095,Heart failure,DIAGNOSIS,104,117
+CLIN-0095,shortness of breath,SYMPTOM,140,159
+CLIN-0095,orthopnoea,SYMPTOM,161,171
+CLIN-0095,leg swelling,SYMPTOM,173,185
+CLIN-0095,Furosemide 40 mg daily,MEDICATION,209,231
+CLIN-0095,Ramipril 2.5 mg daily,MEDICATION,233,254
+CLIN-0095,Bisoprolol 1.25 mg daily,MEDICATION,256,280
+CLIN-0095,No known drug allergies,ALLERGY,304,327
+CLIN-0095,BNP 920 pg/mL,LAB_RESULT,358,371
+CLIN-0095,Chest X-ray pulmonary congestion,LAB_RESULT,373,405
+CLIN-0095,fluid overload,RED_FLAG,424,438
+CLIN-0095,high BNP,RED_FLAG,440,448
+CLIN-0096,Heart failure,DIAGNOSIS,188,201
+CLIN-0096,shortness of breath,SYMPTOM,103,122
+CLIN-0096,orthopnoea,SYMPTOM,124,134
+CLIN-0096,leg swelling,SYMPTOM,136,148
+CLIN-0096,Furosemide 40 mg daily,MEDICATION,228,250
+CLIN-0096,Ramipril 2.5 mg daily,MEDICATION,252,273
+CLIN-0096,Bisoprolol 1.25 mg daily,MEDICATION,275,299
+CLIN-0096,No known drug allergies,ALLERGY,317,340
+CLIN-0096,BNP 920 pg/mL,LAB_RESULT,360,373
+CLIN-0096,Chest X-ray pulmonary congestion,LAB_RESULT,375,407
+CLIN-0096,fluid overload,RED_FLAG,490,504
+CLIN-0096,high BNP,RED_FLAG,506,514
+CLIN-0097,Iron deficiency anaemia,DIAGNOSIS,106,129
+CLIN-0097,fatigue,SYMPTOM,152,159
+CLIN-0097,pallor,SYMPTOM,161,167
+CLIN-0097,reduced exercise tolerance,SYMPTOM,169,195
+CLIN-0097,Ferrous sulfate 200 mg daily,MEDICATION,219,247
+CLIN-0097,No known drug allergies,ALLERGY,271,294
+CLIN-0097,Haemoglobin 8.9 g/dL,LAB_RESULT,325,345
+CLIN-0097,Ferritin 8 ng/mL,LAB_RESULT,347,363
+CLIN-0097,low haemoglobin,RED_FLAG,382,397
+CLIN-0097,possible occult blood loss,RED_FLAG,399,425
+CLIN-0098,Iron deficiency anaemia,DIAGNOSIS,186,209
+CLIN-0098,fatigue,SYMPTOM,103,110
+CLIN-0098,pallor,SYMPTOM,112,118
+CLIN-0098,reduced exercise tolerance,SYMPTOM,120,146
+CLIN-0098,Ferrous sulfate 200 mg daily,MEDICATION,236,264
+CLIN-0098,No known drug allergies,ALLERGY,282,305
+CLIN-0098,Haemoglobin 8.9 g/dL,LAB_RESULT,325,345
+CLIN-0098,Ferritin 8 ng/mL,LAB_RESULT,347,363
+CLIN-0098,low haemoglobin,RED_FLAG,446,461
+CLIN-0098,possible occult blood loss,RED_FLAG,463,489
+CLIN-0099,Iron deficiency anaemia,DIAGNOSIS,74,97
+CLIN-0099,fatigue,SYMPTOM,128,135
+CLIN-0099,pallor,SYMPTOM,137,143
+CLIN-0099,reduced exercise tolerance,SYMPTOM,145,171
+CLIN-0099,Ferrous sulfate 200 mg daily,MEDICATION,201,229
+CLIN-0099,No known drug allergies,ALLERGY,242,265
+CLIN-0099,Haemoglobin 8.9 g/dL,LAB_RESULT,291,311
+CLIN-0099,Ferritin 8 ng/mL,LAB_RESULT,313,329
+CLIN-0099,low haemoglobin,RED_FLAG,349,364
+CLIN-0099,possible occult blood loss,RED_FLAG,366,392
+CLIN-0100,Iron deficiency anaemia,DIAGNOSIS,104,127
+CLIN-0100,fatigue,SYMPTOM,150,157
+CLIN-0100,pallor,SYMPTOM,159,165
+CLIN-0100,reduced exercise tolerance,SYMPTOM,167,193
+CLIN-0100,Ferrous sulfate 200 mg daily,MEDICATION,217,245
+CLIN-0100,No known drug allergies,ALLERGY,269,292
+CLIN-0100,Haemoglobin 8.9 g/dL,LAB_RESULT,323,343
+CLIN-0100,Ferritin 8 ng/mL,LAB_RESULT,345,361
+CLIN-0100,low haemoglobin,RED_FLAG,380,395
+CLIN-0100,possible occult blood loss,RED_FLAG,397,423
+CLIN-0101,Iron deficiency anaemia,DIAGNOSIS,184,207
+CLIN-0101,fatigue,SYMPTOM,101,108
+CLIN-0101,pallor,SYMPTOM,110,116
+CLIN-0101,reduced exercise tolerance,SYMPTOM,118,144
+CLIN-0101,Ferrous sulfate 200 mg daily,MEDICATION,234,262
+CLIN-0101,No known drug allergies,ALLERGY,280,303
+CLIN-0101,Haemoglobin 8.9 g/dL,LAB_RESULT,323,343
+CLIN-0101,Ferritin 8 ng/mL,LAB_RESULT,345,361
+CLIN-0101,low haemoglobin,RED_FLAG,444,459
+CLIN-0101,possible occult blood loss,RED_FLAG,461,487
+CLIN-0102,Iron deficiency anaemia,DIAGNOSIS,77,100
+CLIN-0102,fatigue,SYMPTOM,131,138
+CLIN-0102,pallor,SYMPTOM,140,146
+CLIN-0102,reduced exercise tolerance,SYMPTOM,148,174
+CLIN-0102,Ferrous sulfate 200 mg daily,MEDICATION,204,232
+CLIN-0102,No known drug allergies,ALLERGY,245,268
+CLIN-0102,Haemoglobin 8.9 g/dL,LAB_RESULT,294,314
+CLIN-0102,Ferritin 8 ng/mL,LAB_RESULT,316,332
+CLIN-0102,low haemoglobin,RED_FLAG,352,367
+CLIN-0102,possible occult blood loss,RED_FLAG,369,395
+CLIN-0103,Iron deficiency anaemia,DIAGNOSIS,107,130
+CLIN-0103,fatigue,SYMPTOM,153,160
+CLIN-0103,pallor,SYMPTOM,162,168
+CLIN-0103,reduced exercise tolerance,SYMPTOM,170,196
+CLIN-0103,Ferrous sulfate 200 mg daily,MEDICATION,220,248
+CLIN-0103,No known drug allergies,ALLERGY,272,295
+CLIN-0103,Haemoglobin 8.9 g/dL,LAB_RESULT,326,346
+CLIN-0103,Ferritin 8 ng/mL,LAB_RESULT,348,364
+CLIN-0103,low haemoglobin,RED_FLAG,383,398
+CLIN-0103,possible occult blood loss,RED_FLAG,400,426
+CLIN-0104,Iron deficiency anaemia,DIAGNOSIS,183,206
+CLIN-0104,fatigue,SYMPTOM,100,107
+CLIN-0104,pallor,SYMPTOM,109,115
+CLIN-0104,reduced exercise tolerance,SYMPTOM,117,143
+CLIN-0104,Ferrous sulfate 200 mg daily,MEDICATION,233,261
+CLIN-0104,No known drug allergies,ALLERGY,279,302
+CLIN-0104,Haemoglobin 8.9 g/dL,LAB_RESULT,322,342
+CLIN-0104,Ferritin 8 ng/mL,LAB_RESULT,344,360
+CLIN-0104,low haemoglobin,RED_FLAG,443,458
+CLIN-0104,possible occult blood loss,RED_FLAG,460,486
+CLIN-0105,Iron deficiency anaemia,DIAGNOSIS,72,95
+CLIN-0105,fatigue,SYMPTOM,126,133
+CLIN-0105,pallor,SYMPTOM,135,141
+CLIN-0105,reduced exercise tolerance,SYMPTOM,143,169
+CLIN-0105,Ferrous sulfate 200 mg daily,MEDICATION,199,227
+CLIN-0105,No known drug allergies,ALLERGY,240,263
+CLIN-0105,Haemoglobin 8.9 g/dL,LAB_RESULT,289,309
+CLIN-0105,Ferritin 8 ng/mL,LAB_RESULT,311,327
+CLIN-0105,low haemoglobin,RED_FLAG,347,362
+CLIN-0105,possible occult blood loss,RED_FLAG,364,390
+CLIN-0106,Iron deficiency anaemia,DIAGNOSIS,104,127
+CLIN-0106,fatigue,SYMPTOM,150,157
+CLIN-0106,pallor,SYMPTOM,159,165
+CLIN-0106,reduced exercise tolerance,SYMPTOM,167,193
+CLIN-0106,Ferrous sulfate 200 mg daily,MEDICATION,217,245
+CLIN-0106,No known drug allergies,ALLERGY,269,292
+CLIN-0106,Haemoglobin 8.9 g/dL,LAB_RESULT,323,343
+CLIN-0106,Ferritin 8 ng/mL,LAB_RESULT,345,361
+CLIN-0106,low haemoglobin,RED_FLAG,380,395
+CLIN-0106,possible occult blood loss,RED_FLAG,397,423
+CLIN-0107,Iron deficiency anaemia,DIAGNOSIS,183,206
+CLIN-0107,fatigue,SYMPTOM,100,107
+CLIN-0107,pallor,SYMPTOM,109,115
+CLIN-0107,reduced exercise tolerance,SYMPTOM,117,143
+CLIN-0107,Ferrous sulfate 200 mg daily,MEDICATION,233,261
+CLIN-0107,No known drug allergies,ALLERGY,279,302
+CLIN-0107,Haemoglobin 8.9 g/dL,LAB_RESULT,322,342
+CLIN-0107,Ferritin 8 ng/mL,LAB_RESULT,344,360
+CLIN-0107,low haemoglobin,RED_FLAG,443,458
+CLIN-0107,possible occult blood loss,RED_FLAG,460,486
+CLIN-0108,Iron deficiency anaemia,DIAGNOSIS,74,97
+CLIN-0108,fatigue,SYMPTOM,128,135
+CLIN-0108,pallor,SYMPTOM,137,143
+CLIN-0108,reduced exercise tolerance,SYMPTOM,145,171
+CLIN-0108,Ferrous sulfate 200 mg daily,MEDICATION,201,229
+CLIN-0108,No known drug allergies,ALLERGY,242,265
+CLIN-0108,Haemoglobin 8.9 g/dL,LAB_RESULT,291,311
+CLIN-0108,Ferritin 8 ng/mL,LAB_RESULT,313,329
+CLIN-0108,low haemoglobin,RED_FLAG,349,364
+CLIN-0108,possible occult blood loss,RED_FLAG,366,392
+CLIN-0109,Hypothyroidism,DIAGNOSIS,179,193
+CLIN-0109,tiredness,SYMPTOM,99,108
+CLIN-0109,weight gain,SYMPTOM,110,121
+CLIN-0109,cold intolerance,SYMPTOM,123,139
+CLIN-0109,Levothyroxine 50 micrograms daily,MEDICATION,220,253
+CLIN-0109,No known drug allergies,ALLERGY,271,294
+CLIN-0109,TSH 12.8 mIU/L,LAB_RESULT,314,328
+CLIN-0109,Free T4 8 pmol/L,LAB_RESULT,330,346
+CLIN-0109,abnormal thyroid function,RED_FLAG,429,454
+CLIN-0110,Hypothyroidism,DIAGNOSIS,71,85
+CLIN-0110,tiredness,SYMPTOM,116,125
+CLIN-0110,weight gain,SYMPTOM,127,138
+CLIN-0110,cold intolerance,SYMPTOM,140,156
+CLIN-0110,Levothyroxine 50 micrograms daily,MEDICATION,186,219
+CLIN-0110,No known drug allergies,ALLERGY,232,255
+CLIN-0110,TSH 12.8 mIU/L,LAB_RESULT,281,295
+CLIN-0110,Free T4 8 pmol/L,LAB_RESULT,297,313
+CLIN-0110,abnormal thyroid function,RED_FLAG,333,358
+CLIN-0111,Hypothyroidism,DIAGNOSIS,98,112
+CLIN-0111,tiredness,SYMPTOM,135,144
+CLIN-0111,weight gain,SYMPTOM,146,157
+CLIN-0111,cold intolerance,SYMPTOM,159,175
+CLIN-0111,Levothyroxine 50 micrograms daily,MEDICATION,199,232
+CLIN-0111,No known drug allergies,ALLERGY,256,279
+CLIN-0111,TSH 12.8 mIU/L,LAB_RESULT,310,324
+CLIN-0111,Free T4 8 pmol/L,LAB_RESULT,326,342
+CLIN-0111,abnormal thyroid function,RED_FLAG,361,386
+CLIN-0112,Hypothyroidism,DIAGNOSIS,177,191
+CLIN-0112,tiredness,SYMPTOM,97,106
+CLIN-0112,weight gain,SYMPTOM,108,119
+CLIN-0112,cold intolerance,SYMPTOM,121,137
+CLIN-0112,Levothyroxine 50 micrograms daily,MEDICATION,218,251
+CLIN-0112,No known drug allergies,ALLERGY,269,292
+CLIN-0112,TSH 12.8 mIU/L,LAB_RESULT,312,326
+CLIN-0112,Free T4 8 pmol/L,LAB_RESULT,328,344
+CLIN-0112,abnormal thyroid function,RED_FLAG,427,452
+CLIN-0113,Hypothyroidism,DIAGNOSIS,69,83
+CLIN-0113,tiredness,SYMPTOM,114,123
+CLIN-0113,weight gain,SYMPTOM,125,136
+CLIN-0113,cold intolerance,SYMPTOM,138,154
+CLIN-0113,Levothyroxine 50 micrograms daily,MEDICATION,184,217
+CLIN-0113,No known drug allergies,ALLERGY,230,253
+CLIN-0113,TSH 12.8 mIU/L,LAB_RESULT,279,293
+CLIN-0113,Free T4 8 pmol/L,LAB_RESULT,295,311
+CLIN-0113,abnormal thyroid function,RED_FLAG,331,356
+CLIN-0114,Hypothyroidism,DIAGNOSIS,101,115
+CLIN-0114,tiredness,SYMPTOM,138,147
+CLIN-0114,weight gain,SYMPTOM,149,160
+CLIN-0114,cold intolerance,SYMPTOM,162,178
+CLIN-0114,Levothyroxine 50 micrograms daily,MEDICATION,202,235
+CLIN-0114,No known drug allergies,ALLERGY,259,282
+CLIN-0114,TSH 12.8 mIU/L,LAB_RESULT,313,327
+CLIN-0114,Free T4 8 pmol/L,LAB_RESULT,329,345
+CLIN-0114,abnormal thyroid function,RED_FLAG,364,389
+CLIN-0115,Hypothyroidism,DIAGNOSIS,180,194
+CLIN-0115,tiredness,SYMPTOM,100,109
+CLIN-0115,weight gain,SYMPTOM,111,122
+CLIN-0115,cold intolerance,SYMPTOM,124,140
+CLIN-0115,Levothyroxine 50 micrograms daily,MEDICATION,221,254
+CLIN-0115,No known drug allergies,ALLERGY,272,295
+CLIN-0115,TSH 12.8 mIU/L,LAB_RESULT,315,329
+CLIN-0115,Free T4 8 pmol/L,LAB_RESULT,331,347
+CLIN-0115,abnormal thyroid function,RED_FLAG,430,455
+CLIN-0116,Hypothyroidism,DIAGNOSIS,68,82
+CLIN-0116,tiredness,SYMPTOM,113,122
+CLIN-0116,weight gain,SYMPTOM,124,135
+CLIN-0116,cold intolerance,SYMPTOM,137,153
+CLIN-0116,Levothyroxine 50 micrograms daily,MEDICATION,183,216
+CLIN-0116,No known drug allergies,ALLERGY,229,252
+CLIN-0116,TSH 12.8 mIU/L,LAB_RESULT,278,292
+CLIN-0116,Free T4 8 pmol/L,LAB_RESULT,294,310
+CLIN-0116,abnormal thyroid function,RED_FLAG,330,355
+CLIN-0117,Hypothyroidism,DIAGNOSIS,96,110
+CLIN-0117,tiredness,SYMPTOM,133,142
+CLIN-0117,weight gain,SYMPTOM,144,155
+CLIN-0117,cold intolerance,SYMPTOM,157,173
+CLIN-0117,Levothyroxine 50 micrograms daily,MEDICATION,197,230
+CLIN-0117,No known drug allergies,ALLERGY,254,277
+CLIN-0117,TSH 12.8 mIU/L,LAB_RESULT,308,322
+CLIN-0117,Free T4 8 pmol/L,LAB_RESULT,324,340
+CLIN-0117,abnormal thyroid function,RED_FLAG,359,384
+CLIN-0118,Hypothyroidism,DIAGNOSIS,177,191
+CLIN-0118,tiredness,SYMPTOM,97,106
+CLIN-0118,weight gain,SYMPTOM,108,119
+CLIN-0118,cold intolerance,SYMPTOM,121,137
+CLIN-0118,Levothyroxine 50 micrograms daily,MEDICATION,218,251
+CLIN-0118,No known drug allergies,ALLERGY,269,292
+CLIN-0118,TSH 12.8 mIU/L,LAB_RESULT,312,326
+CLIN-0118,Free T4 8 pmol/L,LAB_RESULT,328,344
+CLIN-0118,abnormal thyroid function,RED_FLAG,427,452
+CLIN-0119,Hypothyroidism,DIAGNOSIS,68,82
+CLIN-0119,tiredness,SYMPTOM,113,122
+CLIN-0119,weight gain,SYMPTOM,124,135
+CLIN-0119,cold intolerance,SYMPTOM,137,153
+CLIN-0119,Levothyroxine 50 micrograms daily,MEDICATION,183,216
+CLIN-0119,No known drug allergies,ALLERGY,229,252
+CLIN-0119,TSH 12.8 mIU/L,LAB_RESULT,278,292
+CLIN-0119,Free T4 8 pmol/L,LAB_RESULT,294,310
+CLIN-0119,abnormal thyroid function,RED_FLAG,330,355
+CLIN-0120,Hypothyroidism,DIAGNOSIS,98,112
+CLIN-0120,tiredness,SYMPTOM,135,144
+CLIN-0120,weight gain,SYMPTOM,146,157
+CLIN-0120,cold intolerance,SYMPTOM,159,175
+CLIN-0120,Levothyroxine 50 micrograms daily,MEDICATION,199,232
+CLIN-0120,No known drug allergies,ALLERGY,256,279
+CLIN-0120,TSH 12.8 mIU/L,LAB_RESULT,310,324
+CLIN-0120,Free T4 8 pmol/L,LAB_RESULT,326,342
+CLIN-0120,abnormal thyroid function,RED_FLAG,361,386
+CLIN-0121,Migraine,DIAGNOSIS,73,81
+CLIN-0121,unilateral headache,SYMPTOM,112,131
+CLIN-0121,nausea,SYMPTOM,133,139
+CLIN-0121,photophobia,SYMPTOM,141,152
+CLIN-0121,Sumatriptan 50 mg as needed,MEDICATION,182,209
+CLIN-0121,Ibuprofen 400 mg as needed,MEDICATION,211,237
+CLIN-0121,No known drug allergies,ALLERGY,250,273
+CLIN-0121,Neurological exam documented as normal,LAB_RESULT,299,337
+CLIN-0122,Migraine,DIAGNOSIS,101,109
+CLIN-0122,unilateral headache,SYMPTOM,132,151
+CLIN-0122,nausea,SYMPTOM,153,159
+CLIN-0122,photophobia,SYMPTOM,161,172
+CLIN-0122,Sumatriptan 50 mg as needed,MEDICATION,196,223
+CLIN-0122,Ibuprofen 400 mg as needed,MEDICATION,225,251
+CLIN-0122,No known drug allergies,ALLERGY,275,298
+CLIN-0122,Neurological exam documented as normal,LAB_RESULT,329,367
+CLIN-0123,Migraine,DIAGNOSIS,177,185
+CLIN-0123,unilateral headache,SYMPTOM,97,116
+CLIN-0123,nausea,SYMPTOM,118,124
+CLIN-0123,photophobia,SYMPTOM,126,137
+CLIN-0123,Sumatriptan 50 mg as needed,MEDICATION,212,239
+CLIN-0123,Ibuprofen 400 mg as needed,MEDICATION,241,267
+CLIN-0123,No known drug allergies,ALLERGY,285,308
+CLIN-0123,Neurological exam documented as normal,LAB_RESULT,328,366
+CLIN-0124,Migraine,DIAGNOSIS,71,79
+CLIN-0124,unilateral headache,SYMPTOM,110,129
+CLIN-0124,nausea,SYMPTOM,131,137
+CLIN-0124,photophobia,SYMPTOM,139,150
+CLIN-0124,Sumatriptan 50 mg as needed,MEDICATION,180,207
+CLIN-0124,Ibuprofen 400 mg as needed,MEDICATION,209,235
+CLIN-0124,No known drug allergies,ALLERGY,248,271
+CLIN-0124,Neurological exam documented as normal,LAB_RESULT,297,335
+CLIN-0125,Migraine,DIAGNOSIS,99,107
+CLIN-0125,unilateral headache,SYMPTOM,130,149
+CLIN-0125,nausea,SYMPTOM,151,157
+CLIN-0125,photophobia,SYMPTOM,159,170
+CLIN-0125,Sumatriptan 50 mg as needed,MEDICATION,194,221
+CLIN-0125,Ibuprofen 400 mg as needed,MEDICATION,223,249
+CLIN-0125,No known drug allergies,ALLERGY,273,296
+CLIN-0125,Neurological exam documented as normal,LAB_RESULT,327,365
+CLIN-0126,Migraine,DIAGNOSIS,180,188
+CLIN-0126,unilateral headache,SYMPTOM,100,119
+CLIN-0126,nausea,SYMPTOM,121,127
+CLIN-0126,photophobia,SYMPTOM,129,140
+CLIN-0126,Sumatriptan 50 mg as needed,MEDICATION,215,242
+CLIN-0126,Ibuprofen 400 mg as needed,MEDICATION,244,270
+CLIN-0126,No known drug allergies,ALLERGY,288,311
+CLIN-0126,Neurological exam documented as normal,LAB_RESULT,331,369
+CLIN-0127,Migraine,DIAGNOSIS,74,82
+CLIN-0127,unilateral headache,SYMPTOM,113,132
+CLIN-0127,nausea,SYMPTOM,134,140
+CLIN-0127,photophobia,SYMPTOM,142,153
+CLIN-0127,Sumatriptan 50 mg as needed,MEDICATION,183,210
+CLIN-0127,Ibuprofen 400 mg as needed,MEDICATION,212,238
+CLIN-0127,No known drug allergies,ALLERGY,251,274
+CLIN-0127,Neurological exam documented as normal,LAB_RESULT,300,338
+CLIN-0128,Migraine,DIAGNOSIS,98,106
+CLIN-0128,unilateral headache,SYMPTOM,129,148
+CLIN-0128,nausea,SYMPTOM,150,156
+CLIN-0128,photophobia,SYMPTOM,158,169
+CLIN-0128,Sumatriptan 50 mg as needed,MEDICATION,193,220
+CLIN-0128,Ibuprofen 400 mg as needed,MEDICATION,222,248
+CLIN-0128,No known drug allergies,ALLERGY,272,295
+CLIN-0128,Neurological exam documented as normal,LAB_RESULT,326,364
+CLIN-0129,Migraine,DIAGNOSIS,175,183
+CLIN-0129,unilateral headache,SYMPTOM,95,114
+CLIN-0129,nausea,SYMPTOM,116,122
+CLIN-0129,photophobia,SYMPTOM,124,135
+CLIN-0129,Sumatriptan 50 mg as needed,MEDICATION,210,237
+CLIN-0129,Ibuprofen 400 mg as needed,MEDICATION,239,265
+CLIN-0129,No known drug allergies,ALLERGY,283,306
+CLIN-0129,Neurological exam documented as normal,LAB_RESULT,326,364
+CLIN-0130,Migraine,DIAGNOSIS,71,79
+CLIN-0130,unilateral headache,SYMPTOM,110,129
+CLIN-0130,nausea,SYMPTOM,131,137
+CLIN-0130,photophobia,SYMPTOM,139,150
+CLIN-0130,Sumatriptan 50 mg as needed,MEDICATION,180,207
+CLIN-0130,Ibuprofen 400 mg as needed,MEDICATION,209,235
+CLIN-0130,No known drug allergies,ALLERGY,248,271
+CLIN-0130,Neurological exam documented as normal,LAB_RESULT,297,335
+CLIN-0131,Migraine,DIAGNOSIS,98,106
+CLIN-0131,unilateral headache,SYMPTOM,129,148
+CLIN-0131,nausea,SYMPTOM,150,156
+CLIN-0131,photophobia,SYMPTOM,158,169
+CLIN-0131,Sumatriptan 50 mg as needed,MEDICATION,193,220
+CLIN-0131,Ibuprofen 400 mg as needed,MEDICATION,222,248
+CLIN-0131,No known drug allergies,ALLERGY,272,295
+CLIN-0131,Neurological exam documented as normal,LAB_RESULT,326,364
+CLIN-0132,Migraine,DIAGNOSIS,177,185
+CLIN-0132,unilateral headache,SYMPTOM,97,116
+CLIN-0132,nausea,SYMPTOM,118,124
+CLIN-0132,photophobia,SYMPTOM,126,137
+CLIN-0132,Sumatriptan 50 mg as needed,MEDICATION,212,239
+CLIN-0132,Ibuprofen 400 mg as needed,MEDICATION,241,267
+CLIN-0132,No known drug allergies,ALLERGY,285,308
+CLIN-0132,Neurological exam documented as normal,LAB_RESULT,328,366
+CLIN-0133,Urinary tract infection,DIAGNOSIS,114,137
+CLIN-0133,dysuria,SYMPTOM,160,167
+CLIN-0133,urinary frequency,SYMPTOM,169,186
+CLIN-0133,suprapubic discomfort,SYMPTOM,188,209
+CLIN-0133,Nitrofurantoin 100 mg twice daily,MEDICATION,233,266
+CLIN-0133,Trimethoprim allergy,ALLERGY,290,310
+CLIN-0133,Urine dip positive nitrites,LAB_RESULT,341,368
+CLIN-0133,Temperature 37.4 C,LAB_RESULT,370,388
+CLIN-0134,Urinary tract infection,DIAGNOSIS,200,223
+CLIN-0134,dysuria,SYMPTOM,111,118
+CLIN-0134,urinary frequency,SYMPTOM,120,137
+CLIN-0134,suprapubic discomfort,SYMPTOM,139,160
+CLIN-0134,Nitrofurantoin 100 mg twice daily,MEDICATION,250,283
+CLIN-0134,Trimethoprim allergy,ALLERGY,301,321
+CLIN-0134,Urine dip positive nitrites,LAB_RESULT,341,368
+CLIN-0134,Temperature 37.4 C,LAB_RESULT,370,388
+CLIN-0135,Urinary tract infection,DIAGNOSIS,82,105
+CLIN-0135,dysuria,SYMPTOM,136,143
+CLIN-0135,urinary frequency,SYMPTOM,145,162
+CLIN-0135,suprapubic discomfort,SYMPTOM,164,185
+CLIN-0135,Nitrofurantoin 100 mg twice daily,MEDICATION,215,248
+CLIN-0135,Trimethoprim allergy,ALLERGY,261,281
+CLIN-0135,Urine dip positive nitrites,LAB_RESULT,307,334
+CLIN-0135,Temperature 37.4 C,LAB_RESULT,336,354
+CLIN-0136,Urinary tract infection,DIAGNOSIS,112,135
+CLIN-0136,dysuria,SYMPTOM,158,165
+CLIN-0136,urinary frequency,SYMPTOM,167,184
+CLIN-0136,suprapubic discomfort,SYMPTOM,186,207
+CLIN-0136,Nitrofurantoin 100 mg twice daily,MEDICATION,231,264
+CLIN-0136,Trimethoprim allergy,ALLERGY,288,308
+CLIN-0136,Urine dip positive nitrites,LAB_RESULT,339,366
+CLIN-0136,Temperature 37.4 C,LAB_RESULT,368,386
+CLIN-0137,Urinary tract infection,DIAGNOSIS,198,221
+CLIN-0137,dysuria,SYMPTOM,109,116
+CLIN-0137,urinary frequency,SYMPTOM,118,135
+CLIN-0137,suprapubic discomfort,SYMPTOM,137,158
+CLIN-0137,Nitrofurantoin 100 mg twice daily,MEDICATION,248,281
+CLIN-0137,Trimethoprim allergy,ALLERGY,299,319
+CLIN-0137,Urine dip positive nitrites,LAB_RESULT,339,366
+CLIN-0137,Temperature 37.4 C,LAB_RESULT,368,386
+CLIN-0138,Urinary tract infection,DIAGNOSIS,85,108
+CLIN-0138,dysuria,SYMPTOM,139,146
+CLIN-0138,urinary frequency,SYMPTOM,148,165
+CLIN-0138,suprapubic discomfort,SYMPTOM,167,188
+CLIN-0138,Nitrofurantoin 100 mg twice daily,MEDICATION,218,251
+CLIN-0138,Trimethoprim allergy,ALLERGY,264,284
+CLIN-0138,Urine dip positive nitrites,LAB_RESULT,310,337
+CLIN-0138,Temperature 37.4 C,LAB_RESULT,339,357
+CLIN-0139,Urinary tract infection,DIAGNOSIS,115,138
+CLIN-0139,dysuria,SYMPTOM,161,168
+CLIN-0139,urinary frequency,SYMPTOM,170,187
+CLIN-0139,suprapubic discomfort,SYMPTOM,189,210
+CLIN-0139,Nitrofurantoin 100 mg twice daily,MEDICATION,234,267
+CLIN-0139,Trimethoprim allergy,ALLERGY,291,311
+CLIN-0139,Urine dip positive nitrites,LAB_RESULT,342,369
+CLIN-0139,Temperature 37.4 C,LAB_RESULT,371,389
+CLIN-0140,Urinary tract infection,DIAGNOSIS,197,220
+CLIN-0140,dysuria,SYMPTOM,108,115
+CLIN-0140,urinary frequency,SYMPTOM,117,134
+CLIN-0140,suprapubic discomfort,SYMPTOM,136,157
+CLIN-0140,Nitrofurantoin 100 mg twice daily,MEDICATION,247,280
+CLIN-0140,Trimethoprim allergy,ALLERGY,298,318
+CLIN-0140,Urine dip positive nitrites,LAB_RESULT,338,365
+CLIN-0140,Temperature 37.4 C,LAB_RESULT,367,385
+CLIN-0141,Urinary tract infection,DIAGNOSIS,80,103
+CLIN-0141,dysuria,SYMPTOM,134,141
+CLIN-0141,urinary frequency,SYMPTOM,143,160
+CLIN-0141,suprapubic discomfort,SYMPTOM,162,183
+CLIN-0141,Nitrofurantoin 100 mg twice daily,MEDICATION,213,246
+CLIN-0141,Trimethoprim allergy,ALLERGY,259,279
+CLIN-0141,Urine dip positive nitrites,LAB_RESULT,305,332
+CLIN-0141,Temperature 37.4 C,LAB_RESULT,334,352
+CLIN-0142,Urinary tract infection,DIAGNOSIS,112,135
+CLIN-0142,dysuria,SYMPTOM,158,165
+CLIN-0142,urinary frequency,SYMPTOM,167,184
+CLIN-0142,suprapubic discomfort,SYMPTOM,186,207
+CLIN-0142,Nitrofurantoin 100 mg twice daily,MEDICATION,231,264
+CLIN-0142,Trimethoprim allergy,ALLERGY,288,308
+CLIN-0142,Urine dip positive nitrites,LAB_RESULT,339,366
+CLIN-0142,Temperature 37.4 C,LAB_RESULT,368,386
+CLIN-0143,Urinary tract infection,DIAGNOSIS,197,220
+CLIN-0143,dysuria,SYMPTOM,108,115
+CLIN-0143,urinary frequency,SYMPTOM,117,134
+CLIN-0143,suprapubic discomfort,SYMPTOM,136,157
+CLIN-0143,Nitrofurantoin 100 mg twice daily,MEDICATION,247,280
+CLIN-0143,Trimethoprim allergy,ALLERGY,298,318
+CLIN-0143,Urine dip positive nitrites,LAB_RESULT,338,365
+CLIN-0143,Temperature 37.4 C,LAB_RESULT,367,385
+CLIN-0144,Urinary tract infection,DIAGNOSIS,82,105
+CLIN-0144,dysuria,SYMPTOM,136,143
+CLIN-0144,urinary frequency,SYMPTOM,145,162
+CLIN-0144,suprapubic discomfort,SYMPTOM,164,185
+CLIN-0144,Nitrofurantoin 100 mg twice daily,MEDICATION,215,248
+CLIN-0144,Trimethoprim allergy,ALLERGY,261,281
+CLIN-0144,Urine dip positive nitrites,LAB_RESULT,307,334
+CLIN-0144,Temperature 37.4 C,LAB_RESULT,336,354
