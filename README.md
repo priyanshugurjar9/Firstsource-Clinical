@@ -1,5 +1,5 @@
 
-**title: Clinical Document Intelligence Hub**
+**Title: Clinical Document Intelligence Hub**
 
 ***Developed by Priyanshu Gurjar***
 
