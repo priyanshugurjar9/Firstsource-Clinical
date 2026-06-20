@@ -1,11 +1,5 @@
 ---
 title: Clinical Document Intelligence Hub
-emoji: 🩺
-colorFrom: green
-colorTo: gray
-sdk: docker
-app_port: 7860
-pinned: false
 ---
 
 **Developed by Priyanshu Gurjar**
