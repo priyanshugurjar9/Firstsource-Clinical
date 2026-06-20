@@ -12,9 +12,6 @@ recommendation traceable to source evidence.
 **Live demo:**
 [gurjar01-clinical-document-intelligence-hub.hf.space](https://gurjar01-clinical-document-intelligence-hub.hf.space)
 
-> Use synthetic or de-identified documents only. This POC supports human review and
-> does not diagnose patients or replace clinical judgement.
-
 ## Core Capabilities
 
 - Accepts `PNG`, `PDF`, `DOCX`, `MD`, `TXT` and pasted text.
